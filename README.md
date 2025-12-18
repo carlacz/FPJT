@@ -2,7 +2,7 @@
 
 Available in **English**, **German**, **Spanish**, **French** (see below to implement the task in other languages).
 
-The FPJT is a behavioural paradigm aiming to assess the ability to imagine performing a series of auditorily instructed movements. While focusing on imagery manipulation and maintenance, it also requires generating an imagery "from scratch" and inspecting one's imagery to judge whether it matches a visual stimulus. 
+The FPJT (Czilczer et al., in prep.)[DOI] is a behavioural paradigm aiming to assess the ability to imagine performing a series of auditorily instructed movements. While focusing on imagery manipulation and maintenance, it also requires generating an imagery "from scratch" and inspecting one's imagery to judge whether it matches a visual stimulus. 
 If you are interested in assessing Movement Imagery ability, visit the [Movement Imagery Ability Platform](movementimageryability.github.io) for an overview of open-source behavioural tasks.
 
 The task was adapted from earlier imagery-stimulus compairosn tasks (e.g., [Madan & Singhal, 2013](https://doi.org/10.1080/00222895.2013.763764); [Nishida et al., 1986](https://doi.org/10.1123/jsep.10.4.418); [Schott, 2013](https://doi.org/10.1007/s00391-013-0520-x)). 
@@ -12,7 +12,7 @@ The most updated versions can be found in this repository.
 Subsequent updates in native software ([PsychoPy](https://www.psychopy.org/index.html) and [OpenSesame](https://osdoc.cogsci.nl/)) may need adjustments. As developers, we are not responsible for implementing these in every use case.
 
 An example of a trial is shown below. Participants imagine performing 4-7 movements (subsequently instructed via standardized audios) and judge whether their final position in their imagery matches with a visual stimulus, which is presented after the last auditory instruction.
-![FPJT-demo](files-READMEs/fpjt-demo.png)
+![FPJT-demo](files-READMEs/FPJT-demo.png)
 
 ## Repository information
 This repository has four main folders, which contain **PsychoPy** (`.psyexp`) and **OpenSesame** (`.osexp`) experiments, together with associated files to run them **locally** (lab/desktop experiments) or **online** (in a browser).  
