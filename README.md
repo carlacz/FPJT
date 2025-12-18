@@ -12,7 +12,7 @@ The most updated versions can be found in this repository.
 Subsequent updates in native software ([PsychoPy](https://www.psychopy.org/index.html) and [OpenSesame](https://osdoc.cogsci.nl/)) may need adjustments. As developers, we are not responsible for implementing these in every use case.
 
 An example of a trial is shown below. Participants imagine performing 4-7 movements (subsequently instructed via standardized audios) and judge whether their final position in their imagery matches with a visual stimulus, which is presented after the last auditory instruction.
-![fpjt-demo](files-READMEs/FPJT-demo.png)
+![fpjt-demo](files-READMEs/fpjt-demo.png)
 
 ## Repository information
 This repository has four main folders, which contain **PsychoPy** (`.psyexp`) and **OpenSesame** (`.osexp`) experiments, together with associated files to run them **locally** (lab/desktop experiments) or **online** (in a browser).  
