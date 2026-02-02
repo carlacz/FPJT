@@ -183,13 +183,13 @@ In **Experiment Settings → Experiment info**, participants can optionally sele
 
 1. Click `experiment_settings` routine
 2. Open code component `response_mode`
-3. Edit in **Before experiment**
+3. Edit in **Begin experiment**
 
 #### 2. Default `feedback`
 
 1. Click `experiment_settings` routine
 2. Open code component `feedback`
-3. Edit in **Before experiment**
+3. Edit in **Begin experiment**
 
 #### 3. Disable language selection
 
@@ -258,5 +258,6 @@ Contributions are welcome.
 ## REFERENCE
 
 Please cite [Czilczer et al. (2025)](https://osf.io/9xjfb) when using this resource.
+
 
 
