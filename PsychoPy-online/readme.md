@@ -24,7 +24,7 @@ PsychoPy exports results directly as `.csv` (wide format) plus `.log` / `.psydat
 1. **Download** and unzip the repository to a dedicated folder.
 2. **Open PsychoPy**, then open the experiment file `FPJT_online.psyexp` in Builder.
 3. To run online, use PsychoPy’s **Pavlovia** workflow (e.g., “Pavlovia → Sync” / “Export HTML”), and follow the standard PsychoPy/Pavlovia procedure to create/sync a Pavlovia project.
-4. Click the green **Run** button to test in browser (debugging only; not recommended for online data collection).
+4. Click the **Run** button to test in browser (debugging only; not recommended for online data collection).
 5. **Distribute** the generated study link to your participants. They run the task directly in their web browser.
 6. **Download the data** from the Pavlovia project dashboard (Results/Data export).
 
@@ -258,4 +258,5 @@ Contributions are welcome.
 ## REFERENCE
 
 Please cite [Czilczer et al. (2025)](https://osf.io/9xjfb) when using this resource.
+
 
