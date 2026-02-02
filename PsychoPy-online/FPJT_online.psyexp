@@ -7,14 +7,14 @@
     <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
     <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
     <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
-    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
-    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001', 'language': '[&quot;English&quot;, &quot;German&quot;]', 'response_mode': '[&quot;Both hands&quot;, &quot;Right hand&quot;, &quot;Left hand&quot;]', 'feedback': '[&quot;Yes&quot;, &quot;No feedback in testblock&quot;]'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="Thank you." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001', 'language': '[&quot;English&quot;, &quot;German&quot;, &quot;Spanish&quot;, &quot;French&quot;]'}" valType="code" updates="None" name="Experiment info"/>
     <Param val="True" valType="bool" updates="None" name="Force stereo"/>
     <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
     <Param val="" valType="str" updates="None" name="HTML path"/>
     <Param val="" valType="str" updates="None" name="Incomplete URL"/>
     <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
-    <Param val="['fpjt_audios/signal_tone.mp3', 'fpjt_audios/testsound_DE.mp3', 'fpjt_images/sound-icon.png', 'fpjt_audios/solution_DE.mp3', 'fpjt_audios/head_down_DE.mp3', 'fpjt_audios/head_up_DE.mp3', 'fpjt_audios/left_arm_front_DE.mp3', 'fpjt_audios/left_arm_side_DE.mp3', 'fpjt_audios/left_arm_up_DE.mp3', 'fpjt_audios/left_leg_back_DE.mp3', 'fpjt_audios/left_leg_front_DE.mp3', 'fpjt_audios/left_leg_side_DE.mp3', 'fpjt_audios/right_arm_front_DE.mp3', 'fpjt_audios/right_arm_side_DE.mp3', 'fpjt_audios/right_arm_up_DE.mp3', 'fpjt_audios/right_leg_back_DE.mp3', 'fpjt_audios/right_leg_front_DE.mp3', 'fpjt_audios/right_leg_side_DE.mp3', 'fpjt_audios/signalton230ms.mp3', 'fpjt_audios/straight_DE.mp3', 'fpjt_audios/torso_left_DE.mp3', 'fpjt_audios/torso_right_DE.mp3', 'Demographics.xlsx', 'Language_localiser.xlsx', 'Messages.xlsx', 'fpjt_files/Famil_trials.xlsx', 'fpjt_files/Practice_trials.xlsx', 'fpjt_files/Testblock_trials.xlsx', 'fpjt_images/31.jpg', 'fpjt_images/32.jpg', 'fpjt_images/33.jpg', 'fpjt_images/34.jpg', 'fpjt_images/35.jpg', 'fpjt_images/36.jpg', 'fpjt_images/37.jpg', 'fpjt_images/38.jpg', 'fpjt_images/41.jpg', 'fpjt_images/42.jpg', 'fpjt_images/43.jpg', 'fpjt_images/44.jpg', 'fpjt_images/45.jpg', 'fpjt_images/46.jpg', 'fpjt_images/47.jpg', 'fpjt_images/48.jpg', 'fpjt_images/51.jpg', 'fpjt_images/52.jpg', 'fpjt_images/53.jpg', 'fpjt_images/54.jpg', 'fpjt_images/55.jpg', 'fpjt_images/56.jpg', 'fpjt_images/57.jpg', 'fpjt_images/58.jpg', 'fpjt_images/61.jpg', 'fpjt_images/62.jpg', 'fpjt_images/63.jpg', 'fpjt_images/64.jpg', 'fpjt_images/65.jpg', 'fpjt_images/66.jpg', 'fpjt_images/67.jpg', 'fpjt_images/68.jpg', 'fpjt_images/close-eyes.png', 'fpjt_images/g-key.png', 'fpjt_images/head_down.jpg', 'fpjt_images/head_up.jpg', 'fpjt_images/h-key.png', 'fpjt_images/instr_img1.jpg', 'fpjt_images/instr_img2.jpg', 'fpjt_images/left_arm_front.jpg', 'fpjt_images/left_arm_side.jpg', 'fpjt_images/left_arm_up.jpg', 'fpjt_images/left_leg_back.jpg', 'fpjt_images/left_leg_front.jpg', 'fpjt_images/left_leg_side.jpg', 'fpjt_images/left-index.png', 'fpjt_images/l-key.png', 'fpjt_images/practice1.jpg', 'fpjt_images/practice2.jpg', 'fpjt_images/practice3.jpg', 'fpjt_images/practice4.jpg', 'fpjt_images/right_arm_front.jpg', 'fpjt_images/right_arm_side.jpg', 'fpjt_images/right_arm_up.jpg', 'fpjt_images/right_leg_back.jpg', 'fpjt_images/right_leg_front.jpg', 'fpjt_images/right_leg_side.jpg', 'fpjt_images/right-index.png', 'fpjt_images/s-key.png', 'fpjt_images/straight.jpg', 'fpjt_images/torso_left.jpg', 'fpjt_images/torso_right.jpg']" valType="list" updates="None" name="Resources"/>
+    <Param val="['Language_localiser.xlsx', 'fpjt_images/31.jpg', 'fpjt_images/32.jpg', 'fpjt_images/33.jpg', 'fpjt_images/34.jpg', 'fpjt_images/35.jpg', 'fpjt_images/36.jpg', 'fpjt_images/37.jpg', 'fpjt_images/38.jpg', 'fpjt_images/41.jpg', 'fpjt_images/42.jpg', 'fpjt_images/43.jpg', 'fpjt_images/44.jpg', 'fpjt_images/45.jpg', 'fpjt_images/46.jpg', 'fpjt_images/47.jpg', 'fpjt_images/48.jpg', 'fpjt_images/51.jpg', 'fpjt_images/52.jpg', 'fpjt_images/53.jpg', 'fpjt_images/54.jpg', 'fpjt_images/55.jpg', 'fpjt_images/56.jpg', 'fpjt_images/57.jpg', 'fpjt_images/58.jpg', 'fpjt_images/61.jpg', 'fpjt_images/62.jpg', 'fpjt_images/63.jpg', 'fpjt_images/64.jpg', 'fpjt_images/65.jpg', 'fpjt_images/66.jpg', 'fpjt_images/67.jpg', 'fpjt_images/68.jpg', 'fpjt_images/close-eyes.png', 'fpjt_images/g-key.png', 'fpjt_images/head_down.jpg', 'fpjt_images/head_up.jpg', 'fpjt_images/h-key.png', 'fpjt_images/instr_img1.jpg', 'fpjt_images/instr_img2.jpg', 'fpjt_images/left_arm_front.jpg', 'fpjt_images/left_arm_side.jpg', 'fpjt_images/left_arm_up.jpg', 'fpjt_images/left_leg_back.jpg', 'fpjt_images/left_leg_front.jpg', 'fpjt_images/left_leg_side.jpg', 'fpjt_images/left-index.png', 'fpjt_images/l-key.png', 'fpjt_images/practice1.jpg', 'fpjt_images/practice2.jpg', 'fpjt_images/practice3.jpg', 'fpjt_images/practice4.jpg', 'fpjt_images/right_arm_front.jpg', 'fpjt_images/right_arm_side.jpg', 'fpjt_images/right_arm_up.jpg', 'fpjt_images/right_leg_back.jpg', 'fpjt_images/right_leg_front.jpg', 'fpjt_images/right_leg_side.jpg', 'fpjt_images/right-index.png', 'fpjt_images/s-key.png', 'fpjt_images/sound-icon.png', 'fpjt_images/straight.jpg', 'fpjt_images/torso_left.jpg', 'fpjt_images/torso_right.jpg', 'fpjt_audios/head_down_DE.wav', 'fpjt_audios/head_down_EN.wav', 'fpjt_audios/head_up_DE.wav', 'fpjt_audios/head_up_EN.wav', 'fpjt_audios/left_arm_front_DE.wav', 'fpjt_audios/left_arm_front_EN.wav', 'fpjt_audios/left_arm_side_DE.wav', 'fpjt_audios/left_arm_side_EN.wav', 'fpjt_audios/left_arm_up_DE.wav', 'fpjt_audios/left_arm_up_EN.wav', 'fpjt_audios/left_leg_back_DE.wav', 'fpjt_audios/left_leg_back_EN.wav', 'fpjt_audios/left_leg_front_DE.wav', 'fpjt_audios/left_leg_front_EN.wav', 'fpjt_audios/left_leg_side_DE.wav', 'fpjt_audios/left_leg_side_EN.wav', 'fpjt_audios/press_f_EN.wav', 'fpjt_audios/press_r_EN.wav', 'fpjt_audios/right_arm_front_DE.wav', 'fpjt_audios/right_arm_front_EN.wav', 'fpjt_audios/right_arm_side_DE.wav', 'fpjt_audios/right_arm_side_EN.wav', 'fpjt_audios/right_arm_up_DE.wav', 'fpjt_audios/right_arm_up_EN.wav', 'fpjt_audios/right_leg_back_DE.wav', 'fpjt_audios/right_leg_back_EN.wav', 'fpjt_audios/right_leg_front_DE.wav', 'fpjt_audios/right_leg_front_EN.wav', 'fpjt_audios/right_leg_side_DE.wav', 'fpjt_audios/right_leg_side_EN.wav', 'fpjt_audios/signal_tone.wav', 'fpjt_audios/solution_DE.wav', 'fpjt_audios/solution_EN.wav', 'fpjt_audios/straight_DE.wav', 'fpjt_audios/straight_EN.wav', 'fpjt_audios/testsound_DE.wav', 'fpjt_audios/testsound_EN.wav', 'fpjt_audios/torso_left_DE.wav', 'fpjt_audios/torso_left_EN.wav', 'fpjt_audios/torso_right_DE.wav', 'fpjt_audios/torso_right_EN.wav', 'fpjt_files/Famil_trials.xlsx', 'fpjt_files/Messages.xlsx', 'fpjt_files/Practice_audios.xlsx', 'fpjt_files/Practice_trials.xlsx', 'fpjt_files/Testblock_audios.xlsx', 'fpjt_files/Testblock_trials.xlsx', 'fpjt_audios/head_down_DE.wav', 'fpjt_audios/head_down_EN.wav', 'fpjt_audios/head_up_DE.wav', 'fpjt_audios/head_up_EN.wav', 'fpjt_audios/left_arm_front_DE.wav', 'fpjt_audios/left_arm_front_EN.wav', 'fpjt_audios/left_arm_side_DE.wav', 'fpjt_audios/left_arm_side_EN.wav', 'fpjt_audios/left_arm_up_DE.wav', 'fpjt_audios/left_arm_up_EN.wav', 'fpjt_audios/left_leg_back_DE.wav', 'fpjt_audios/left_leg_back_EN.wav', 'fpjt_audios/left_leg_front_DE.wav', 'fpjt_audios/left_leg_front_EN.wav', 'fpjt_audios/left_leg_side_DE.wav', 'fpjt_audios/left_leg_side_EN.wav', 'fpjt_audios/press_f_EN.wav', 'fpjt_audios/press_r_EN.wav', 'fpjt_audios/right_arm_front_DE.wav', 'fpjt_audios/right_arm_front_EN.wav', 'fpjt_audios/right_arm_side_DE.wav', 'fpjt_audios/right_arm_side_EN.wav', 'fpjt_audios/right_arm_up_DE.wav', 'fpjt_audios/right_arm_up_EN.wav', 'fpjt_audios/right_leg_back_DE.wav', 'fpjt_audios/right_leg_back_EN.wav', 'fpjt_audios/right_leg_front_DE.wav', 'fpjt_audios/right_leg_front_EN.wav', 'fpjt_audios/right_leg_side_DE.wav', 'fpjt_audios/right_leg_side_EN.wav', 'fpjt_audios/signal_tone.wav', 'fpjt_audios/solution_DE.wav', 'fpjt_audios/solution_EN.wav', 'fpjt_audios/straight_DE.wav', 'fpjt_audios/straight_EN.wav', 'fpjt_audios/testsound_DE.wav', 'fpjt_audios/testsound_EN.wav', 'fpjt_audios/torso_left_DE.wav', 'fpjt_audios/torso_left_EN.wav', 'fpjt_audios/torso_right_DE.wav', 'fpjt_audios/torso_right_EN.wav', 'fpjt_audios/head_down_DE.wav', 'fpjt_audios/head_down_EN.wav', 'fpjt_audios/head_up_DE.wav', 'fpjt_audios/head_up_EN.wav', 'fpjt_audios/left_arm_front_DE.wav', 'fpjt_audios/left_arm_front_EN.wav', 'fpjt_audios/left_arm_side_DE.wav', 'fpjt_audios/left_arm_side_EN.wav', 'fpjt_audios/left_arm_up_DE.wav', 'fpjt_audios/left_arm_up_EN.wav', 'fpjt_audios/left_leg_back_DE.wav', 'fpjt_audios/left_leg_back_EN.wav', 'fpjt_audios/left_leg_front_DE.wav', 'fpjt_audios/left_leg_front_EN.wav', 'fpjt_audios/left_leg_side_DE.wav', 'fpjt_audios/left_leg_side_EN.wav', 'fpjt_audios/press_f_EN.wav', 'fpjt_audios/press_r_EN.wav', 'fpjt_audios/right_arm_front_DE.wav', 'fpjt_audios/right_arm_front_EN.wav', 'fpjt_audios/right_arm_side_DE.wav', 'fpjt_audios/right_arm_side_EN.wav', 'fpjt_audios/right_arm_up_DE.wav', 'fpjt_audios/right_arm_up_EN.wav', 'fpjt_audios/right_leg_back_DE.wav', 'fpjt_audios/right_leg_back_EN.wav', 'fpjt_audios/right_leg_front_DE.wav', 'fpjt_audios/right_leg_front_EN.wav', 'fpjt_audios/right_leg_side_DE.wav', 'fpjt_audios/right_leg_side_EN.wav', 'fpjt_audios/signal_tone.wav', 'fpjt_audios/solution_DE.wav', 'fpjt_audios/solution_EN.wav', 'fpjt_audios/straight_DE.wav', 'fpjt_audios/straight_EN.wav', 'fpjt_audios/testsound_DE.wav', 'fpjt_audios/testsound_EN.wav', 'fpjt_audios/torso_left_DE.wav', 'fpjt_audios/torso_left_EN.wav', 'fpjt_audios/torso_right_DE.wav', 'fpjt_audios/torso_right_EN.wav', 'fpjt_files/Messages.xlsx', 'fpjt_audios/head_down_EN.wav', 'fpjt_audios/head_up_EN.wav', 'fpjt_audios/left_arm_front_EN.wav', 'fpjt_audios/left_arm_side_EN.wav', 'fpjt_audios/left_arm_up_EN.wav', 'fpjt_audios/left_leg_back_EN.wav', 'fpjt_audios/left_leg_front_EN.wav', 'fpjt_audios/left_leg_side_EN.wav', 'fpjt_audios/press_f_EN.wav', 'fpjt_audios/press_r_EN.wav', 'fpjt_audios/right_arm_front_EN.wav', 'fpjt_audios/right_arm_side_EN.wav', 'fpjt_audios/right_arm_up_EN.wav', 'fpjt_audios/right_leg_back_EN.wav', 'fpjt_audios/right_leg_front_EN.wav', 'fpjt_audios/right_leg_side_EN.wav', 'fpjt_audios/signal_tone.wav', 'fpjt_audios/solution_EN.wav', 'fpjt_audios/straight_EN.wav', 'fpjt_audios/testsound_EN.wav', 'fpjt_audios/torso_left_EN.wav', 'fpjt_audios/torso_right_EN.wav', 'Language_localiser.xlsx', 'Messages.xlsx', 'fpjt_files/Famil_trials.xlsx', 'fpjt_files/Practice_trials.xlsx', 'fpjt_files/Testblock_trials.xlsx', 'fpjt_images/31.jpg', 'fpjt_images/32.jpg', 'fpjt_images/33.jpg', 'fpjt_images/34.jpg', 'fpjt_images/35.jpg', 'fpjt_images/36.jpg', 'fpjt_images/37.jpg', 'fpjt_images/38.jpg', 'fpjt_images/41.jpg', 'fpjt_images/42.jpg', 'fpjt_images/43.jpg', 'fpjt_images/44.jpg', 'fpjt_images/45.jpg', 'fpjt_images/46.jpg', 'fpjt_images/47.jpg', 'fpjt_images/48.jpg', 'fpjt_images/51.jpg', 'fpjt_images/52.jpg', 'fpjt_images/53.jpg', 'fpjt_images/54.jpg', 'fpjt_images/55.jpg', 'fpjt_images/56.jpg', 'fpjt_images/57.jpg', 'fpjt_images/58.jpg', 'fpjt_images/61.jpg', 'fpjt_images/62.jpg', 'fpjt_images/63.jpg', 'fpjt_images/64.jpg', 'fpjt_images/65.jpg', 'fpjt_images/66.jpg', 'fpjt_images/67.jpg', 'fpjt_images/68.jpg', 'fpjt_images/close-eyes.png', 'fpjt_images/g-key.png', 'fpjt_images/head_down.jpg', 'fpjt_images/head_up.jpg', 'fpjt_images/h-key.png', 'fpjt_images/instr_img1.jpg', 'fpjt_images/instr_img2.jpg', 'fpjt_images/left_arm_front.jpg', 'fpjt_images/left_arm_side.jpg', 'fpjt_images/left_arm_up.jpg', 'fpjt_images/left_leg_back.jpg', 'fpjt_images/left_leg_front.jpg', 'fpjt_images/left_leg_side.jpg', 'fpjt_images/left-index.png', 'fpjt_images/l-key.png', 'fpjt_images/practice1.jpg', 'fpjt_images/practice2.jpg', 'fpjt_images/practice3.jpg', 'fpjt_images/practice4.jpg', 'fpjt_images/right_arm_front.jpg', 'fpjt_images/right_arm_side.jpg', 'fpjt_images/right_arm_up.jpg', 'fpjt_images/right_leg_back.jpg', 'fpjt_images/right_leg_front.jpg', 'fpjt_images/right_leg_side.jpg', 'fpjt_images/right-index.png', 'fpjt_images/s-key.png', 'fpjt_images/straight.jpg', 'fpjt_images/torso_left.jpg', 'fpjt_images/torso_right.jpg']" valType="list" updates="None" name="Resources"/>
     <Param val="False" valType="bool" updates="None" name="Save csv file"/>
     <Param val="False" valType="bool" updates="None" name="Save excel file"/>
     <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
@@ -95,7 +95,7 @@
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="constant" name="skipIf"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
       <TextComponent name="bye_text" plugin="None">
@@ -118,13 +118,30 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="5.00" valType="code" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="$bye_msg" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
+      <CodeComponent name="show_mouse" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="document.body.style.cursor = 'auto';" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="show_mouse" valType="code" updates="None" name="name"/>
+      </CodeComponent>
     </Routine>
     <Routine name="load_language">
       <RoutineSettingsComponent name="load_language" plugin="None">
@@ -146,10 +163,10 @@
       <CodeComponent name="update_language_code" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="# we define &quot;lang_code&quot; which is our variable to&amp;#10;# be used for the language localisation dynamically&amp;#10;# we set it to English as default language&amp;#10;lang_code = &quot;EN&quot; # change default here&amp;#10;&amp;#10;# add to output&amp;#10;thisExp.addData(&quot;language_code&quot;, lang_code)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="lang_code = &quot;EN&quot;;&amp;#10;psychoJS.experiment.addData(&quot;language_code&quot;, lang_code);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="### DISABLE EXPERIMENT SETTINGS AND SET DEFAULT ###&amp;#10;# 1) set default here (needs to be an ISO code from Language_localiser.xlsx)&amp;#10;lang_code = &quot;EN&quot; &amp;#10;# 2) comment out lines 2-3 in &quot;Begin routine&quot; tab of this code component&amp;#10;# 3) Go to the &quot;Experiment settings&quot; and delete the &quot;Experiment info&quot; field for &quot;language&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="lang_code = &quot;EN&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="if ((language === expInfo[&quot;language&quot;])) {&amp;#10;    lang_code = ISO_code;&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;language_code&quot;, lang_code);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# we put this code at the beginning of the routine.&amp;#10;# at this point the language has already been selected&amp;#10;# in the dialogue box by the participant&amp;#10;&amp;#10;# now we update the language code based on the&amp;#10;# language localiser variable ISO_code&amp;#10;if language == expInfo['language']:&amp;#10;    lang_code = ISO_code  &amp;#10;&amp;#10;thisExp.addData(&quot;language_code&quot;, lang_code)  # add it to output&amp;#10;&amp;#10;# this way now lang_code has the value of ISO_code&amp;#10;# where language in our Excel sheet matches with the&amp;#10;# language selected by the participant" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="# we update the language code based on the language localiser variable ISO_code&amp;#10;if language == expInfo['language']: # comment out to set default in &quot;Begin experiment&quot; tab&amp;#10;    lang_code = ISO_code            # &quot;&amp;#10;&amp;#10;thisExp.addData(&quot;language_code&quot;, lang_code)  # add it to output&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -214,10 +231,10 @@
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
       <CodeComponent name="response_mode" plugin="None">
-        <Param val="# set default here (&quot;Both hands&quot;, &quot;Left hand&quot;, &quot;Right hand&quot;)&amp;#10;selected_response_mode = &quot;Both hands&quot;" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="selected_response_mode = &quot;Both hands&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="# response mode&amp;#10;selected_response_mode = expInfo['response_mode']&amp;#10;&amp;#10;# add to output&amp;#10;thisExp.addData(&quot;selected_response_mode&quot;, selected_response_mode)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="selected_response_mode = expInfo[&quot;response_mode&quot;];&amp;#10;psychoJS.experiment.addData(&quot;selected_response_mode&quot;, selected_response_mode);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# set default response mode here (&quot;Both hands&quot;, &quot;Left hand&quot; or &quot;Right hand&quot;)&amp;#10;selected_response_mode = &quot;Both hands&quot;&amp;#10;&amp;#10;# add to output&amp;#10;thisExp.addData(&quot;selected_response_mode&quot;, selected_response_mode)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="selected_response_mode = &quot;Both hands&quot;;&amp;#10;psychoJS.experiment.addData(&quot;selected_response_mode&quot;, selected_response_mode);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -231,10 +248,10 @@
         <Param val="response_mode" valType="code" updates="None" name="name"/>
       </CodeComponent>
       <CodeComponent name="feedback" plugin="None">
-        <Param val="# set default here &amp;#10;selected_feedback = &quot;No&quot; &amp;#10;&amp;#10;# to disable selection of feedback in experiment settings, set default in line 2&amp;#10;# of this tab (&quot;Before experiment&quot; tab) and comment out line 2 in &quot;Begin experiment&quot; tab" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="selected_feedback = &quot;No&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="# feedback in testblock&amp;#10;selected_feedback = expInfo['feedback']&amp;#10;&amp;#10;if selected_feedback == &quot;Yes&quot;: &amp;#10;    feedback_time = 1&amp;#10;elif selected_feedback == &quot;No&quot;:&amp;#10;    feedback_time = 0&amp;#10;    &amp;#10;# add to output&amp;#10;thisExp.addData(&quot;selected_feedback&quot;, selected_feedback)&amp;#10;thisExp.addData(&quot;feedback_time&quot;, feedback_time)&amp;#10;&amp;#10;# to disable selection in experiment settings, set default in &quot;Before experiment&quot; &amp;#10;# line 2 and comment out line 2 in this tab (&quot;Begin experiment&quot; tab)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="selected_feedback = expInfo[&quot;feedback&quot;];&amp;#10;if ((selected_feedback === &quot;Yes&quot;)) {&amp;#10;    feedback_time = 1;&amp;#10;} else {&amp;#10;    if ((selected_feedback === &quot;No&quot;)) {&amp;#10;        feedback_time = 0;&amp;#10;    }&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;selected_feedback&quot;, selected_feedback);&amp;#10;psychoJS.experiment.addData(&quot;feedback_time&quot;, feedback_time);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# set default feedback here (&quot;Yes&quot; or &quot;No feedback in testblock&quot;)&amp;#10;selected_feedback = &quot;No feedback in testblock&quot; &amp;#10;&amp;#10;# add to output&amp;#10;thisExp.addData(&quot;selected_feedback&quot;, selected_feedback)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="selected_feedback = &quot;No feedback in testblock&quot;;&amp;#10;psychoJS.experiment.addData(&quot;selected_feedback&quot;, selected_feedback);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -547,8 +564,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="# initialize variables&amp;#10;task_instr_msg_1 = &quot;&quot;&amp;#10;task_instr_msg_3 = &quot;&quot;&amp;#10;left_key_image = &quot;&quot;&amp;#10;right_key_image = &quot;&quot;&amp;#10;no_feedback_text = &quot;&quot;&amp;#10;allowed_keys = [&quot;g&quot;, &quot;h&quot;]" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="task_instr_msg_1 = &quot;&quot;;&amp;#10;task_instr_msg_3 = &quot;&quot;;&amp;#10;left_key_image = &quot;&quot;;&amp;#10;right_key_image = &quot;&quot;;&amp;#10;no_feedback_text = &quot;&quot;;&amp;#10;allowed_keys = [&quot;g&quot;, &quot;h&quot;];" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="left_key_image = &quot;fpjt_images/g-key.png&quot;;&amp;#10;right_key_image = &quot;fpjt_images/h-key.png&quot;;&amp;#10;&amp;#10;if ((selected_feedback === &quot;No&quot;)){&amp;#10;    no_feedback_text = no_feedback_msg;&amp;#10;}&amp;#10;&amp;#10;if ((selected_response_mode === &quot;Both hands&quot;)) {&amp;#10;    task_instr_msg_1 = task_instr_msg_1_bimanual;&amp;#10;    task_instr_msg_3 = task_instr_msg_3_bimanual;&amp;#10;    left_key_image = &quot;fpjt_images/s-key.png&quot;;&amp;#10;    right_key_image = &quot;fpjt_images/l-key.png&quot;;&amp;#10;    allowed_keys = [&quot;s&quot;, &quot;l&quot;];&amp;#10;} else {&amp;#10;    if ((selected_response_mode === &quot;Right hand&quot;)) {&amp;#10;        task_instr_msg_1 = task_instr_msg_1_right;&amp;#10;        task_instr_msg_3 = task_instr_msg_3_right;&amp;#10;    } else {&amp;#10;        if ((selected_response_mode === &quot;Left hand&quot;)) {&amp;#10;            task_instr_msg_1 = task_instr_msg_1_left;&amp;#10;            task_instr_msg_3 = task_instr_msg_3_left;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="left_key_image = &quot;fpjt_images/g-key.png&quot;&amp;#10;right_key_image = &quot;fpjt_images/h-key.png&quot;&amp;#10;&amp;#10;if selected_feedback == &quot;No&quot;: &amp;#10;    no_feedback_text = no_feedback_msg&amp;#10;&amp;#10;if selected_response_mode == &quot;Both hands&quot;:&amp;#10;    task_instr_msg_1 = task_instr_msg_1_bimanual&amp;#10;    task_instr_msg_3 = task_instr_msg_3_bimanual&amp;#10;    left_key_image = &quot;fpjt_images/s-key.png&quot;&amp;#10;    right_key_image = &quot;fpjt_images/l-key.png&quot;&amp;#10;    allowed_keys = [&quot;s&quot;, &quot;l&quot;]&amp;#10;elif selected_response_mode == &quot;Right hand&quot;:&amp;#10;    task_instr_msg_1 = task_instr_msg_1_right&amp;#10;    task_instr_msg_3 = task_instr_msg_3_right&amp;#10;elif selected_response_mode == &quot;Left hand&quot;:&amp;#10;    task_instr_msg_1 = task_instr_msg_1_left&amp;#10;    task_instr_msg_3 = task_instr_msg_3_left" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="left_key_image = &quot;fpjt_images/g-key.png&quot;;&amp;#10;right_key_image = &quot;fpjt_images/h-key.png&quot;;&amp;#10;&amp;#10;if ((selected_feedback === &quot;No feedback in testblock&quot;)){&amp;#10;    no_feedback_text = no_feedback_msg;&amp;#10;}&amp;#10;&amp;#10;if ((selected_response_mode === &quot;Both hands&quot;)) {&amp;#10;    task_instr_msg_1 = task_instr_msg_1_bimanual;&amp;#10;    task_instr_msg_3 = task_instr_msg_3_bimanual;&amp;#10;    left_key_image = &quot;fpjt_images/s-key.png&quot;;&amp;#10;    right_key_image = &quot;fpjt_images/l-key.png&quot;;&amp;#10;    allowed_keys = [&quot;s&quot;, &quot;l&quot;];&amp;#10;} else {&amp;#10;    if ((selected_response_mode === &quot;Right hand&quot;)) {&amp;#10;        task_instr_msg_1 = task_instr_msg_1_right;&amp;#10;        task_instr_msg_3 = task_instr_msg_3_right;&amp;#10;    } else {&amp;#10;        if ((selected_response_mode === &quot;Left hand&quot;)) {&amp;#10;            task_instr_msg_1 = task_instr_msg_1_left;&amp;#10;            task_instr_msg_3 = task_instr_msg_3_left;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="left_key_image = &quot;fpjt_images/g-key.png&quot;&amp;#10;right_key_image = &quot;fpjt_images/h-key.png&quot;&amp;#10;&amp;#10;if selected_feedback == &quot;No feedback in testblock&quot;: &amp;#10;    no_feedback_text = no_feedback_msg&amp;#10;&amp;#10;if selected_response_mode == &quot;Both hands&quot;:&amp;#10;    task_instr_msg_1 = task_instr_msg_1_bimanual&amp;#10;    task_instr_msg_3 = task_instr_msg_3_bimanual&amp;#10;    left_key_image = &quot;fpjt_images/s-key.png&quot;&amp;#10;    right_key_image = &quot;fpjt_images/l-key.png&quot;&amp;#10;    allowed_keys = [&quot;s&quot;, &quot;l&quot;]&amp;#10;elif selected_response_mode == &quot;Right hand&quot;:&amp;#10;    task_instr_msg_1 = task_instr_msg_1_right&amp;#10;    task_instr_msg_3 = task_instr_msg_3_right&amp;#10;elif selected_response_mode == &quot;Left hand&quot;:&amp;#10;    task_instr_msg_1 = task_instr_msg_1_left&amp;#10;    task_instr_msg_3 = task_instr_msg_3_left" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Both" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -2494,8 +2511,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="audio_counter = 0&amp;#10;current_instr_audio = &quot;&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="audio_counter = 0;&amp;#10;current_instr_audio = &quot;&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="// current row from the INNER audio loop (conditions: Testblock_audios.xlsx)&amp;#10;let row = trial_instr_loop.getCurrentTrial();&amp;#10;&amp;#10;// column name comes from OUTER loop (e.g., item)&amp;#10;let current_column = item; &amp;#10;&amp;#10;// fetch audio stem from this row/column&amp;#10;if (!(current_column in row)) {&amp;#10;  throw new Error(&quot;Audio table missing column: &quot; + current_column);&amp;#10;}&amp;#10;let audioStem = row[current_column];&amp;#10;if (audioStem === undefined || audioStem === null || String(audioStem).trim() === &quot;&quot;) {&amp;#10;  throw new Error(&quot;Missing audio stem for column '&quot; + current_column + &quot;' in current audio row&quot;);&amp;#10;}&amp;#10;&amp;#10;// build final path&amp;#10;current_instr_audio = &quot;fpjt_audios/&quot; + String(audioStem).trim() + &quot;_&quot; + String(lang_code) + &quot;.mp3&quot;;&amp;#10;&amp;#10;&amp;#10;//&amp;#10;if ((trial_instr_loop.thisN === 0)) {&amp;#10;    audio_counter = 0;&amp;#10;}&amp;#10;if ((audio_counter === (n_audios - 1))) {&amp;#10;    trial_instr_loop.finished = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="current_column = item&amp;#10;current_instr_audio = &quot;fpjt_audios/&quot; + str(eval(current_column)) + &quot;_&quot; + str(lang_code) + &quot;.mp3&quot;&amp;#10;&amp;#10;# initialize counter at beginning of loops&amp;#10;if trial_instr_loop.thisN == 0: &amp;#10;    audio_counter = 0&amp;#10;    &amp;#10;# check if n_audios is reached&amp;#10;if audio_counter == n_audios - 1: &amp;#10;    # stop loop&amp;#10;    trial_instr_loop.finished = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="// current row from the INNER audio loop (conditions: Testblock_audios.xlsx)&amp;#10;let row = trial_instr_loop.getCurrentTrial();&amp;#10;&amp;#10;// column name comes from OUTER loop (e.g., item)&amp;#10;let current_column = item; &amp;#10;&amp;#10;// fetch audio stem from this row/column&amp;#10;if (!(current_column in row)) {&amp;#10;  throw new Error(&quot;Audio table missing column: &quot; + current_column);&amp;#10;}&amp;#10;let audioStem = row[current_column];&amp;#10;if (audioStem === undefined || audioStem === null || String(audioStem).trim() === &quot;&quot;) {&amp;#10;  throw new Error(&quot;Missing audio stem for column '&quot; + current_column + &quot;' in current audio row&quot;);&amp;#10;}&amp;#10;&amp;#10;// build final path&amp;#10;current_instr_audio = &quot;fpjt_audios/&quot; + String(audioStem).trim() + &quot;_&quot; + String(lang_code) + &quot;.wav&quot;;&amp;#10;&amp;#10;&amp;#10;//&amp;#10;if ((trial_instr_loop.thisN === 0)) {&amp;#10;    audio_counter = 0;&amp;#10;}&amp;#10;if ((audio_counter === (n_audios - 1))) {&amp;#10;    trial_instr_loop.finished = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="current_column = item&amp;#10;current_instr_audio = &quot;fpjt_audios/&quot; + str(eval(current_column)) + &quot;_&quot; + str(lang_code) + &quot;.wav&quot;&amp;#10;&amp;#10;# initialize counter at beginning of loops&amp;#10;if trial_instr_loop.thisN == 0: &amp;#10;    audio_counter = 0&amp;#10;    &amp;#10;# check if n_audios is reached&amp;#10;if audio_counter == n_audios - 1: &amp;#10;    # stop loop&amp;#10;    trial_instr_loop.finished = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Both" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -3393,17 +3410,17 @@
         <Param val="tone_open_eyes" valType="code" updates="None" name="name"/>
         <Param val="True" valType="str" updates="None" name="resample"/>
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="fpjt_audios/signal_tone.mp3" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="fpjt_audios/signal_tone.wav" valType="str" updates="set every repeat" name="sound"/>
         <Param val="" valType="str" updates="None" name="speakerIndex"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.3" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="0.23" valType="code" updates="constant" name="stopVal"/>
+        <Param val="0.33" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="constant" name="stopWithRoutine"/>
         <Param val="False" valType="bool" updates="constant" name="syncScreenRefresh"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="1" valType="num" updates="constant" name="volume"/>
+        <Param val="1.5" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
     </Routine>
     <Routine name="start_trial">
@@ -3990,7 +4007,7 @@
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="constant" name="skipIf"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="1.9" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
       <TextComponent name="no_text_10" plugin="None">
@@ -4481,8 +4498,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="audio_counter = 0&amp;#10;current_instr_audio = &quot;&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="audio_counter = 0;&amp;#10;current_instr_audio = &quot;&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="// current row from the INNER audio loop (conditions: Testblock_audios.xlsx)&amp;#10;let row = trial_instr_loop_pr.getCurrentTrial();&amp;#10;&amp;#10;// column name comes from OUTER loop (e.g., item)&amp;#10;let current_column = item; &amp;#10;&amp;#10;// fetch audio stem from this row/column&amp;#10;if (!(current_column in row)) {&amp;#10;  throw new Error(&quot;Audio table missing column: &quot; + current_column);&amp;#10;}&amp;#10;let audioStem = row[current_column];&amp;#10;if (audioStem === undefined || audioStem === null || String(audioStem).trim() === &quot;&quot;) {&amp;#10;  throw new Error(&quot;Missing audio stem for column '&quot; + current_column + &quot;' in current audio row&quot;);&amp;#10;}&amp;#10;&amp;#10;// build final path&amp;#10;current_instr_audio = &quot;fpjt_audios/&quot; + String(audioStem).trim() + &quot;_&quot; + String(lang_code) + &quot;.mp3&quot;;&amp;#10;&amp;#10;//&amp;#10;if ((trial_instr_loop_pr.thisN === 0)) {&amp;#10;    audio_counter = 0;&amp;#10;}&amp;#10;if ((audio_counter === (n_audios - 1))) {&amp;#10;    trial_instr_loop_pr.finished = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="current_column = item&amp;#10;current_instr_audio = &quot;fpjt_audios/&quot; + str(eval(current_column)) + &quot;_&quot; + str(lang_code) + &quot;.mp3&quot;&amp;#10;&amp;#10;# initialize counter at beginning of loops&amp;#10;if trial_instr_loop_pr.thisN == 0: &amp;#10;    audio_counter = 0&amp;#10;    &amp;#10;# check if n_audios is reached&amp;#10;if audio_counter == n_audios - 1: &amp;#10;    # stop loop&amp;#10;    trial_instr_loop_pr.finished = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="// current row from the INNER audio loop (conditions: Testblock_audios.xlsx)&amp;#10;let row = trial_instr_loop_pr.getCurrentTrial();&amp;#10;&amp;#10;// column name comes from OUTER loop (e.g., item)&amp;#10;let current_column = item; &amp;#10;&amp;#10;// fetch audio stem from this row/column&amp;#10;if (!(current_column in row)) {&amp;#10;  throw new Error(&quot;Audio table missing column: &quot; + current_column);&amp;#10;}&amp;#10;let audioStem = row[current_column];&amp;#10;if (audioStem === undefined || audioStem === null || String(audioStem).trim() === &quot;&quot;) {&amp;#10;  throw new Error(&quot;Missing audio stem for column '&quot; + current_column + &quot;' in current audio row&quot;);&amp;#10;}&amp;#10;&amp;#10;// build final path&amp;#10;current_instr_audio = &quot;fpjt_audios/&quot; + String(audioStem).trim() + &quot;_&quot; + String(lang_code) + &quot;.wav&quot;;&amp;#10;&amp;#10;//&amp;#10;if ((trial_instr_loop_pr.thisN === 0)) {&amp;#10;    audio_counter = 0;&amp;#10;}&amp;#10;if ((audio_counter === (n_audios - 1))) {&amp;#10;    trial_instr_loop_pr.finished = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="current_column = item&amp;#10;current_instr_audio = &quot;fpjt_audios/&quot; + str(eval(current_column)) + &quot;_&quot; + str(lang_code) + &quot;.wav&quot;&amp;#10;&amp;#10;# initialize counter at beginning of loops&amp;#10;if trial_instr_loop_pr.thisN == 0: &amp;#10;    audio_counter = 0&amp;#10;    &amp;#10;# check if n_audios is reached&amp;#10;if audio_counter == n_audios - 1: &amp;#10;    # stop loop&amp;#10;    trial_instr_loop_pr.finished = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Both" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -5096,17 +5113,17 @@
         <Param val="tone_open_eyes_pr" valType="code" updates="None" name="name"/>
         <Param val="True" valType="str" updates="None" name="resample"/>
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="fpjt_audios/signal_tone.mp3" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="fpjt_audios/signal_tone.wav" valType="str" updates="set every repeat" name="sound"/>
         <Param val="" valType="str" updates="None" name="speakerIndex"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.3" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="0.23" valType="code" updates="constant" name="stopVal"/>
+        <Param val="0.33" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="constant" name="stopWithRoutine"/>
         <Param val="False" valType="bool" updates="constant" name="syncScreenRefresh"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="1" valType="num" updates="constant" name="volume"/>
+        <Param val="1.5" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
     </Routine>
     <Routine name="trial_fixcross_pr">
@@ -5123,7 +5140,7 @@
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="constant" name="skipIf"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="1.9" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
       <TextComponent name="no_text_16" plugin="None">
@@ -5817,8 +5834,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="famil_selected = &quot;&quot;&amp;#10;famil_answer = 0" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="famil_selected = &quot;&quot;;&amp;#10;famil_answer = 0;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="// show mouse&amp;#10;document.body.style.cursor = 'auto';&amp;#10;&amp;#10;// show response options (lookup from window globals created earlier)&amp;#10;function lookup_global(name) {&amp;#10;  name = String(name).trim();&amp;#10;  if (!(name in window)) {&amp;#10;    throw new Error(&quot;Message key not found on window: &quot; + name);&amp;#10;  }&amp;#10;  return window[name];&amp;#10;}&amp;#10;&amp;#10;famil_optA_msg = lookup_global(famil_optionA);&amp;#10;famil_optB_msg = lookup_global(famil_optionB);&amp;#10;famil_optC_msg = lookup_global(famil_optionC);&amp;#10;famil_optD_msg = lookup_global(famil_optionD);&amp;#10;&amp;#10;// text alignment&amp;#10;famil_instr_txt_2.anchor = 'left';&amp;#10;famil_optA.anchor = 'left';&amp;#10;famil_optB.anchor = 'left';&amp;#10;famil_optC.anchor = 'left';&amp;#10;famil_optD.anchor = 'left';&amp;#10;&amp;#10;// reset visuals&amp;#10;familpoly_A.fillColor = &quot;white&quot;;&amp;#10;familpoly_B.fillColor = &quot;white&quot;;&amp;#10;familpoly_C.fillColor = &quot;white&quot;;&amp;#10;familpoly_D.fillColor = &quot;white&quot;;&amp;#10;&amp;#10;// response bookkeeping&amp;#10;famil_selected = null;&amp;#10;tSelected = null;&amp;#10;&amp;#10;// reset mouse click state&amp;#10;famil_mouse.clickReset();&amp;#10;&amp;#10;// helper for audio in feedback&amp;#10;announce_solution_audio = &quot;fpjt_audios/solution_&quot; + String(lang_code) + &quot;.mp3&quot;;&amp;#10;famil_solution_audio = &quot;fpjt_audios/&quot; + String(famil_solution) + &quot;_&quot; + String(lang_code) + &quot;.mp3&quot;;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# show response options&amp;#10;def lookup_global(name):&amp;#10;    name = str(name).strip()&amp;#10;    return globals().get(name, name)&amp;#10;&amp;#10;famil_optA_msg = lookup_global(famil_optionA)&amp;#10;famil_optB_msg = lookup_global(famil_optionB)&amp;#10;famil_optC_msg = lookup_global(famil_optionC)&amp;#10;famil_optD_msg = lookup_global(famil_optionD)&amp;#10;&amp;#10;# text alignment&amp;#10;famil_instr_txt_2.alignText = 'left'&amp;#10;famil_optA.alignText = 'left'&amp;#10;famil_optB.alignText = 'left'&amp;#10;famil_optC.alignText = 'left'&amp;#10;famil_optD.alignText = 'left'&amp;#10;&amp;#10;# reset visuals&amp;#10;familpoly_A.fillColor = &quot;white&quot;&amp;#10;familpoly_B.fillColor = &quot;white&quot;&amp;#10;familpoly_C.fillColor = &quot;white&quot;&amp;#10;familpoly_D.fillColor = &quot;white&quot;&amp;#10;&amp;#10;# response bookkeeping&amp;#10;famil_selected = None&amp;#10;tSelected = None&amp;#10;&amp;#10;# reset mouse click state (prevents carry-over click)&amp;#10;famil_mouse.clickReset()&amp;#10;&amp;#10;# helper for audio in feedback&amp;#10;announce_solution_audio = &quot;fpjt_audios/solution_&quot; + str(lang_code) + &quot;.mp3&quot;&amp;#10;famil_solution_audio = &quot;fpjt_audios/&quot; + str(famil_solution) + &quot;_&quot; + str(lang_code) + &quot;.mp3&quot;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="// show mouse&amp;#10;document.body.style.cursor = 'auto';&amp;#10;&amp;#10;// show response options (lookup from window globals created earlier)&amp;#10;function lookup_global(name) {&amp;#10;  name = String(name).trim();&amp;#10;  if (!(name in window)) {&amp;#10;    throw new Error(&quot;Message key not found on window: &quot; + name);&amp;#10;  }&amp;#10;  return window[name];&amp;#10;}&amp;#10;&amp;#10;famil_optA_msg = lookup_global(famil_optionA);&amp;#10;famil_optB_msg = lookup_global(famil_optionB);&amp;#10;famil_optC_msg = lookup_global(famil_optionC);&amp;#10;famil_optD_msg = lookup_global(famil_optionD);&amp;#10;&amp;#10;// text alignment&amp;#10;famil_instr_txt_2.anchor = 'left';&amp;#10;famil_optA.anchor = 'left';&amp;#10;famil_optB.anchor = 'left';&amp;#10;famil_optC.anchor = 'left';&amp;#10;famil_optD.anchor = 'left';&amp;#10;&amp;#10;// reset visuals&amp;#10;familpoly_A.fillColor = &quot;white&quot;;&amp;#10;familpoly_B.fillColor = &quot;white&quot;;&amp;#10;familpoly_C.fillColor = &quot;white&quot;;&amp;#10;familpoly_D.fillColor = &quot;white&quot;;&amp;#10;&amp;#10;// response bookkeeping&amp;#10;famil_selected = null;&amp;#10;tSelected = null;&amp;#10;&amp;#10;// reset mouse click state&amp;#10;famil_mouse.clickReset();&amp;#10;&amp;#10;// helper for audio in feedback&amp;#10;announce_solution_audio = &quot;fpjt_audios/solution_&quot; + String(lang_code) + &quot;.wav&quot;;&amp;#10;famil_solution_audio = &quot;fpjt_audios/&quot; + String(famil_solution) + &quot;_&quot; + String(lang_code) + &quot;.wav&quot;;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# show response options&amp;#10;def lookup_global(name):&amp;#10;    name = str(name).strip()&amp;#10;    return globals().get(name, name)&amp;#10;&amp;#10;famil_optA_msg = lookup_global(famil_optionA)&amp;#10;famil_optB_msg = lookup_global(famil_optionB)&amp;#10;famil_optC_msg = lookup_global(famil_optionC)&amp;#10;famil_optD_msg = lookup_global(famil_optionD)&amp;#10;&amp;#10;# text alignment&amp;#10;famil_instr_txt_2.alignText = 'left'&amp;#10;famil_optA.alignText = 'left'&amp;#10;famil_optB.alignText = 'left'&amp;#10;famil_optC.alignText = 'left'&amp;#10;famil_optD.alignText = 'left'&amp;#10;&amp;#10;# reset visuals&amp;#10;familpoly_A.fillColor = &quot;white&quot;&amp;#10;familpoly_B.fillColor = &quot;white&quot;&amp;#10;familpoly_C.fillColor = &quot;white&quot;&amp;#10;familpoly_D.fillColor = &quot;white&quot;&amp;#10;&amp;#10;# response bookkeeping&amp;#10;famil_selected = None&amp;#10;tSelected = None&amp;#10;&amp;#10;# reset mouse click state (prevents carry-over click)&amp;#10;famil_mouse.clickReset()&amp;#10;&amp;#10;# helper for audio in feedback&amp;#10;announce_solution_audio = &quot;fpjt_audios/solution_&quot; + str(lang_code) + &quot;.wav&quot;&amp;#10;famil_solution_audio = &quot;fpjt_audios/&quot; + str(famil_solution) + &quot;_&quot; + str(lang_code) + &quot;.wav&quot;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Both" valType="str" updates="None" name="Code Type"/>
         <Param val="# show mouse after 200ms&amp;#10;if t &gt;= 0.2:&amp;#10;    win.mouseVisible = True&amp;#10;&amp;#10;# evaluate click&amp;#10;if famil_selected is None:&amp;#10;    buttons = famil_mouse.getPressed()  # [left, middle, right]&amp;#10;    if buttons[0]:  # left click&amp;#10;        if famil_mouse.isPressedIn(familpoly_A):&amp;#10;            famil_selected = &quot;A&quot;&amp;#10;            familpoly_A.fillColor = &quot;black&quot;&amp;#10;            tSelected = t&amp;#10;        elif famil_mouse.isPressedIn(familpoly_B):&amp;#10;            famil_selected = &quot;B&quot;&amp;#10;            familpoly_B.fillColor = &quot;black&quot;&amp;#10;            tSelected = t&amp;#10;        elif famil_mouse.isPressedIn(familpoly_C):&amp;#10;            famil_selected = &quot;C&quot;&amp;#10;            familpoly_C.fillColor = &quot;black&quot;&amp;#10;            tSelected = t&amp;#10;        elif famil_mouse.isPressedIn(familpoly_D):&amp;#10;            famil_selected = &quot;D&quot;&amp;#10;            familpoly_D.fillColor = &quot;black&quot;&amp;#10;            tSelected = t&amp;#10;else:&amp;#10;    # wait 500ms with black circle, then advance&amp;#10;    if (t - tSelected) &gt;= 0.5:&amp;#10;        continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="// show mouse&amp;#10;if (t &gt;= 0.2) {&amp;#10;  document.body.style.cursor = 'auto';&amp;#10;}&amp;#10;&amp;#10;// evaluate click&amp;#10;if (famil_selected === null) {&amp;#10;  let buttons = famil_mouse.getPressed(); // [left, middle, right]&amp;#10;  if (buttons[0]) { // left click&amp;#10;    if (famil_mouse.isPressedIn(familpoly_A)) {&amp;#10;      famil_selected = &quot;A&quot;;&amp;#10;      familpoly_A.fillColor = &quot;black&quot;;&amp;#10;      tSelected = t;&amp;#10;    } else if (famil_mouse.isPressedIn(familpoly_B)) {&amp;#10;      famil_selected = &quot;B&quot;;&amp;#10;      familpoly_B.fillColor = &quot;black&quot;;&amp;#10;      tSelected = t;&amp;#10;    } else if (famil_mouse.isPressedIn(familpoly_C)) {&amp;#10;      famil_selected = &quot;C&quot;;&amp;#10;      familpoly_C.fillColor = &quot;black&quot;;&amp;#10;      tSelected = t;&amp;#10;    } else if (famil_mouse.isPressedIn(familpoly_D)) {&amp;#10;      famil_selected = &quot;D&quot;;&amp;#10;      familpoly_D.fillColor = &quot;black&quot;;&amp;#10;      tSelected = t;&amp;#10;    }&amp;#10;  }&amp;#10;} else {&amp;#10;  // wait 500ms with black circle, then advance&amp;#10;  if ((t - tSelected) &gt;= 0.5) {&amp;#10;    continueRoutine = false;&amp;#10;  }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -6239,11 +6256,11 @@
         <Param val="" valType="str" updates="None" name="speakerIndex"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="3.75" valType="code" updates="None" name="startVal"/>
+        <Param val="2.7" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
-        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="constant" name="syncScreenRefresh"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="1" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
@@ -6265,7 +6282,7 @@
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="6" valType="code" updates="None" name="startVal"/>
+        <Param val="5.2" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
@@ -6287,7 +6304,7 @@
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="6" valType="code" updates="None" name="startVal"/>
+        <Param val="5.2" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="nothing" valType="str" updates="constant" name="store"/>
@@ -6309,7 +6326,7 @@
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="constant" name="skipIf"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
       <CodeComponent name="end_test_sound_loop" plugin="None">
@@ -6521,8 +6538,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="// define testsound &amp;#10;test_sound_audio = &quot;fpjt_audios/testsound_&quot; + String(lang_code) + &quot;.mp3&quot;;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# define testsound&amp;#10;test_sound_audio = &quot;fpjt_audios/testsound_&quot; + str(lang_code) + &quot;.mp3&quot;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="// define testsound &amp;#10;test_sound_audio = &quot;fpjt_audios/testsound_&quot; + String(lang_code) + &quot;.wav&quot;;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# define testsound&amp;#10;test_sound_audio = &quot;fpjt_audios/testsound_&quot; + str(lang_code) + &quot;.wav&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Both" valType="str" updates="None" name="Code Type"/>
         <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="// show mouse&amp;#10;if (t &gt;= 2) {&amp;#10;    document.body.style.cursor = 'auto';&amp;#10;}" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -6681,12 +6698,889 @@
         <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
       </MouseComponent>
     </Routine>
+    <Routine name="play_test_sound_2">
+      <RoutineSettingsComponent name="play_test_sound_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="play_test_sound_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="end_test_sound_loop_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="if (adv_key_17.keys === &quot;space&quot;) {&amp;#10;  play_test_sound_loop_2.finished = true;&amp;#10;}" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if adv_key_17.keys == &quot;space&quot;:&amp;#10;    play_test_sound_loop_2.finished = True" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="end_test_sound_loop_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <SoundComponent name="test_sound_str_2" plugin="None">
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="hamming"/>
+        <Param val="1" valType="code" updates="None" name="latencyClass"/>
+        <Param val="test_sound_str_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="str" updates="None" name="resample"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="fpjt_audios/right_arm_side_DE.mp3" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="" valType="str" updates="None" name="speakerIndex"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="constant" name="volume"/>
+      </SoundComponent>
+      <TextComponent name="vol_calib_text_3" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="vol_calib_text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.23)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$volume_calib_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.3" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="sound_image_right_3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="fpjt_images/sound-icon.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="sound_image_right_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.35,-.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="sound_image_left_3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="fpjt_images/sound-icon.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="sound_image_left_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.35,-.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextboxComponent name="testsound_button_3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="-1,-1,-1" valType="color" updates="constant" name="borderColor"/>
+        <Param val="3" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1,-1,-1" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="0.6" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="1.0000, 0.0980, -1.0000" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="testsound_button_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0,-.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$testsound_label" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <KeyboardComponent name="adv_key_18" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="adv_key_18" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="demographics">
+      <RoutineSettingsComponent name="demographics" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="demographics" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="demo_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="document.body.style.cursor = 'auto';" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# make mouse visible&amp;#10;win.mouseVisible = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="document.body.style.cursor = 'none';" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="win.mouseVisible = False" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="demo_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="demographics_title" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="demographics_title" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$demographics_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="age_text" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="age_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.32)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$age_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextboxComponent name="age_textbox" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="age_textbox" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0, 0.25)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.12, 0.07)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextComponent name="gender_text" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="gender_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$gender_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="gender_slider" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="borderColor"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="0.4824, 0.4353, -0.1608" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Noto Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="('', '', '', '', '', '')" valType="list" updates="constant" name="labels"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="gender_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.0, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5, 6)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+      <TextboxComponent name="label_female" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_female" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(-0.5, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$f_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="label_male" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_male" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(-0.3, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$m_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="label_transgender" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.0275" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_transgender" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(-0.1, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.18, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$tg_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="label_nonbinary" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_nonbinary" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0.1, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$nb_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="label_other" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_other" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0.3, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$o_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="label_prefer_not_say" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_prefer_not_say" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0.5, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$pns_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextComponent name="laterality_text" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="laterality_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.27)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$laterality_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="laterality_slider" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="borderColor"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="0.4824, 0.4353, -0.1608" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Noto Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="('', '', '')" valType="list" updates="constant" name="labels"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="laterality_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+      <TextboxComponent name="label_left" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_left" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(-0.25, -0.45)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$left_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="label_ambi" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_ambi" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0, -0.45)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.2, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$ambi_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="label_right" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="bottom-center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.8" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="label_right" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0.25, -0.45)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$right_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <ButtonComponent name="next_button" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="0.6078, -0.2784, -0.2784" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="next_button" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="(0.53, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="first click" valType="str" updates="None" name="save"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.2, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$next_msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ButtonComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="experiment_settings"/>
     <LoopInitiator loopType="TrialHandler" name="load_language_loop">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'language': 'English', 'ISO_code': 'EN'}, {'language': 'German', 'ISO_code': 'DE'}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'language': 'English', 'ISO_code': 'EN'}, {'language': 'German', 'ISO_code': 'DE'}, {'language': 'Spanish', 'ISO_code': 'ES'}, {'language': 'French', 'ISO_code': 'FR'}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="Language_localiser.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="False" valType="bool"/>
@@ -6699,7 +7593,7 @@
     <LoopTerminator name="load_language_loop"/>
     <LoopInitiator loopType="TrialHandler" name="update_message_loop">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'message': 'welcome_msg', 'EN': 'Welcome to the experiment!', 'DE': 'Willkommen zum Experiment!', 'ES': 'Bienvenido/a al experimento.', 'FR': 'Bienvenue dans l’expérience.'}, {'message': 'adv_msg', 'EN': 'press SPACE to continue', 'DE': 'zum Fortfahren LEERTASTE drücken', 'ES': 'Pulse la BARRA ESPACIADORA para continuar.', 'FR': 'Appuyez sur la BARRE D’ESPACE pour continuer.'}, {'message': 'bye_msg', 'EN': 'This is the end of the experiment.\nThank you for participating!\nThe experiment finishes in 3 seconds.', 'DE': 'Dies ist das Ende des Experiments.\nVielen Dank für Ihre Teilnahme!\nDas Experiment schließt sich in 3 Sekunden.', 'ES': 'Este es el final del experimento.\nGracias por su participación.\nEl experimento finalizará en 3 segundos.', 'FR': 'Ceci est la fin de l’expérience.\nMerci pour votre participation.\nL’expérience se terminera dans 3 secondes.'}, {'message': 'volume_calib_msg', 'EN': 'In this experiment, you will listen to multiple audio recordings. Click on “Play test sound” and adjust the volume on your device accordingly.', 'DE': 'In diesem Experiment werden Sie mehrere Audios anhören. Klicken Sie auf ‚Testton abspielen‘ abspielen und stellen Sie die Lautstärke an Ihrem Gerät passend ein.', 'ES': 'En este experimento, escuchará varios audios. Haga clic en “Reproducir sonido de prueba” y ajuste el volumen de su dispositivo según sea necesario.', 'FR': 'Dans cette expérience, vous écouterez plusieurs enregistrements audio. Cliquez sur « Lire le son de test » et ajustez le volume de votre appareil en conséquence.'}, {'message': 'testsound_label', 'EN': 'Play test sound', 'DE': 'Testton abspielen', 'ES': 'Reproducir sonido de prueba', 'FR': 'Lire le son de test'}, {'message': 'fam_msg_1a', 'EN': 'In the following, you will see 16 images of a person from behind who started in this upright, standing position …', 'DE': 'Im Folgenden sehen Sie 16 Bilder einer Person von hinten, die in dieser aufrechten, stehenden Position startete… ', 'ES': 'A continuación, verá 16 imágenes de una persona vista desde atrás, que comenzó en esta posición erguida y de pie …', 'FR': 'Dans ce qui suit, vous verrez 16 images d’une personne vue de dos, qui a commencé dans cette position droite et debout …'}, {'message': 'fam_msg_1b', 'EN': '… and then performed a movement.', 'DE': '… und danach eine Bewegung ausführte.', 'ES': '… y después realizó un movimiento.', 'FR': '… et a ensuite effectué un mouvement.'}, {'message': 'fam_msg_2', 'EN': 'Decide which movement the person in the image was instructed to perform:', 'DE': 'Entscheiden Sie, welche Bewegung der Person im Bild instruiert wurde: ', 'ES': 'Decida qué movimiento le fue instruido a la persona en la imagen:', 'FR': 'Décidez quel mouvement a été instruit à la personne sur l’image:'}, {'message': 'straight', 'EN': 'Assume an upright, standing posture.', 'DE': 'Nehmen Sie eine aufrechte, stehende Haltung ein.', 'ES': 'Adopte una postura erguida y de pie.', 'FR': 'Adoptez une posture droite et debout.'}, {'message': 'no_movement', 'EN': 'None.', 'DE': 'Keine.', 'ES': 'Ninguna.', 'FR': 'Aucune.'}, {'message': 'right_arm_side', 'EN': 'Raise your right arm to your side.', 'DE': 'Heben Sie Ihren rechten Arm zu Ihrer Seite an.', 'ES': 'Levante su brazo derecho hacia su lado.', 'FR': 'Levez votre bras droit vers votre côté.'}, {'message': 'left_arm_side', 'EN': 'Raise your left arm to your side.', 'DE': 'Heben Sie Ihren linken Arm zu Ihrer Seite an.', 'ES': 'Levante su brazo izquierdo hacia su lado.', 'FR': 'Levez votre bras gauche vers votre côté.'}, {'message': 'right_arm_front', 'EN': 'Raise your right arm in the direction of your gaze in front of you.', 'DE': 'Heben Sie Ihren rechten Arm in Blickrichtung vor sich an.', 'ES': 'Levante su brazo derecho en la dirección de su mirada frente a usted.', 'FR': 'Levez votre bras droit dans la direction de votre regard devant vous.'}, {'message': 'left_arm_front', 'EN': 'Raise your left arm in the direction of your gaze in front of you.', 'DE': 'Heben Sie Ihren linken Arm in Blickrichtung vor sich an.', 'ES': 'Levante su brazo izquierdo en la dirección de su mirada frente a usted.', 'FR': 'Levez votre bras gauche dans la direction de votre regard devant vous.'}, {'message': 'right_arm_up', 'EN': 'Raise your right arm vertically upwards.', 'DE': 'Heben Sie Ihren rechten Arm senkrecht nach oben an.', 'ES': 'Levante su brazo derecho verticalmente hacia arriba.', 'FR': 'Levez votre bras droit verticalement vers le haut.'}, {'message': 'left_arm_up', 'EN': 'Raise your left arm vertically upwards.', 'DE': 'Heben Sie Ihren linken Arm senkrecht nach oben an.', 'ES': 'Levante su brazo izquierdo verticalmente hacia arriba.', 'FR': 'Levez votre bras gauche verticalement vers le haut.'}, {'message': 'right_leg_side', 'EN': 'Take a small step to the side with your right leg.', 'DE': 'Machen Sie mit Ihrem rechten Bein einen kleinen Schritt zur Seite. ', 'ES': 'Dé un pequeño paso hacia su lado con la pierna derecha.', 'FR': 'Faites un petit pas vers votre côté avec la jambe droite.'}, {'message': 'left_leg_side', 'EN': 'Take a small step to the side with your left leg.', 'DE': 'Machen Sie mit Ihrem linken Bein einen kleinen Schritt zur Seite. ', 'ES': 'Dé un pequeño paso hacia su lado con la pierna izquierda.', 'FR': 'Faites un petit pas vers votre côté avec la jambe gauche.'}, {'message': 'right_leg_front', 'EN': 'Take a small step forward with your right leg.', 'DE': 'Machen Sie mit Ihrem rechten Bein einen kleinen Schritt nach vorne. ', 'ES': 'Dé un pequeño paso hacia delante con la pierna derecha.', 'FR': 'Faites un petit pas vers l’avant avec la jambe droite.'}, {'message': 'left_leg_front', 'EN': 'Take a small step forward with your left leg.', 'DE': 'Machen Sie mit Ihrem linken Bein einen kleinen Schritt nach vorne. ', 'ES': 'Dé un pequeño paso hacia delante con la pierna izquierda.', 'FR': 'Faites un petit pas vers l’avant avec la jambe gauche.'}, {'message': 'right_leg_back', 'EN': 'Take a small step backward with your right leg.', 'DE': 'Machen Sie mit Ihrem rechten Bein einen kleinen Schritt nach hinten. ', 'ES': 'Dé un pequeño paso hacia atrás con la pierna derecha.', 'FR': 'Faites un petit pas vers l’arrière avec la jambe droite.'}, {'message': 'left_leg_back', 'EN': 'Take a small step backward with your left leg.', 'DE': 'Machen Sie mit Ihrem linken Bein einen kleinen Schritt nach hinten. ', 'ES': 'Dé un pequeño paso hacia atrás con la pierna izquierda', 'FR': 'Faites un petit pas vers l’arrière avec la jambe gauche.'}, {'message': 'torso_right', 'EN': 'Turn your upper body to the right.', 'DE': 'Drehen Sie Ihren Oberkörper nach rechts.', 'ES': 'Gire su parte superior del cuerpo hacia la derecha.', 'FR': 'Tournez votre haut du corps vers la droite.'}, {'message': 'torso_left', 'EN': 'Turn your upper body to the left.', 'DE': 'Drehen Sie Ihren Oberkörper nach links.', 'ES': 'Gire su parte superior del cuerpo hacia la izquierda.', 'FR': 'Tournez votre haut du corps vers la gauche.'}, {'message': 'head_up', 'EN': 'Tilt your head upwards.', 'DE': 'Neigen Sie Ihren Kopf nach oben.', 'ES': 'Incline su cabeza hacia arriba.', 'FR': 'Inclinez votre tête vers le haut.'}, {'message': 'head_down', 'EN': 'Tilt your head downwards.', 'DE': 'Neigen Sie Ihren Kopf nach unten.', 'ES': 'Incline su cabeza hacia abajo.', 'FR': 'Inclinez votre tête vers le bas.'}, {'message': 'fam_solution_msg', 'EN': 'The correct answer was:', 'DE': 'Die korrekte Antwort war:', 'ES': 'La respuesta correcta fue:', 'FR': 'La réponse correcte était:'}, {'message': 'task_instr_msg_1_bimanual', 'EN': 'You will now hear an audio instruction in 36 trials, each containing 3 to 7 consecutive movements. IMAGINE what it LOOKS LIKE and how it FEELS to perform these movements YOURSELF. Remain seated calmly, CLOSE YOUR EYES and DO NOT MOVE.\nThe length of the audio instruction varies randomly. Each audio instruction BEGINS with imagining an upright, standing position. Change your body position IN YOUR IMAGERY according to the instructed movements.\nOPEN your eyes at the SIGNAL TONE. An image of a person seen from behind will appear. Decide as QUICKLY AND ACCURATELY as possible whether the position of this person matches your final position in your imagery.\nPress the ‘S’ key with your left index finger for NO and the ‘L’ key with your right index finger for YES.', 'DE': 'Sie hören nun in 36 Durchgängen je eine Audioinstruktion, die 3 bis 7 aufeinanderfolgende Bewegungen enthält. STELLEN SIE SICH VOR, wie es AUSSIEHT und wie es sich ANFÜHLT, diese Bewegungen SELBST auszuführen. Bleiben Sie dabei ruhig sitzen, SCHLIEßEN SIE IHRE AUGEN und BEWEGEN SIE SICH NICHT.\nDie Länge der Audioinstruktion variiert zufällig. Jede Audioinstruktion BEGINNT mit der Vorstellung einer aufrechten, stehenden Position. Verändern Sie IN IHRER VORSTELLUNG Ihre Körperposition entsprechend den instruierten Bewegungen.\nÖFFNEN Sie Ihre Augen beim SIGNALTON. Es erscheint ein Bild einer Person von hinten. Entscheiden Sie so SCHNELL UND KORREKT wie möglich, ob die Position dieser Person zu Ihrer Endposition in Ihrer Vorstellung passt. \nDrücken Sie für NEIN die Taste ‚S‘ mit Ihrem linken Zeigefinger und für JA die Taste ‚L‘ mit Ihrem rechten Zeigefinger.', 'ES': 'Ahora escuchará en 36 ensayos una instrucción de audio que contiene entre 3 y 7 movimientos consecutivos. IMAGINE cómo SE VE y cómo SE SIENTE realizar estos movimientos USTED MISMO. Permanezca sentado tranquilamente, CIERRE LOS OJOS y NO SE MUEVA.\nLa duración de la instrucción de audio varía aleatoriamente. Cada instrucción de audio COMIENZA con la imaginación de una posición erguida, de pie. Modifique la posición de su cuerpo EN SU IMAGINACIÓN de acuerdo con los movimientos instruidos.\nABRA los ojos al TONO DE SEÑAL. Aparecerá una imagen de una persona vista desde atrás. Decida lo más RÁPIDA Y CORRECTAMENTE posible si la posición de esta persona coincide con su posición final en su imaginación.\nPulse la tecla ‘S’ con el dedo índice izquierdo para NO y la tecla ‘L’ con el dedo índice derecho para SÍ.', 'FR': 'Vous allez maintenant entendre, au cours de 36 essais, une instruction audio contenant 3 à 7 mouvements consécutifs. IMAGINEZ à quoi cela RESSEMBLE et ce que cela FAIT de réaliser VOUS-MÊME ces mouvements. Restez assis calmement, FERMEZ LES YEUX et NE BOUGEZ PAS.\nLa durée de l’instruction audio varie aléatoirement. Chaque instruction audio COMMENCE par l’imagerie\nd’une position debout et droite. Modifiez votre position corporelle DANS VOTRE IMAGERIE en fonction des mouvements instruits.\nOUVREZ les yeux au SIGNAL SONORE. Une image d’une personne vue de dos apparaît. Décidez aussi VITE ET CORRECTEMENT que possible si la position de cette personne correspond à votre position finale dans votre imagerie.\nAppuyez sur la touche « S » avec l’index gauche pour NON et sur la touche « L » avec l’index droit pour OUI.'}, {'message': 'task_instr_msg_1_left', 'EN': 'You will now hear an audio instruction in 36 trials, each containing 3 to 7 consecutive movements. IMAGINE what it LOOKS LIKE and how it FEELS to perform these movements YOURSELF. Remain seated calmly, CLOSE YOUR EYES and DO NOT MOVE.\nThe length of the audio instruction varies randomly. Each audio instruction BEGINS with imagining an upright, standing position. Change your body position IN YOUR IMAGERY according to the instructed movements.\nOPEN your eyes at the SIGNAL TONE. An image of a person seen from behind will appear. Decide as QUICKLY AND ACCURATELY as possible whether the position of this person matches your final position in your imagery.\nPress the ‘G’ key with your left middle finger for NO and the ‘H’ key with your left index finger for YES.', 'DE': 'Sie hören nun in 36 Durchgängen je eine Audioinstruktion, die 3 bis 7 aufeinanderfolgende Bewegungen enthält. STELLEN SIE SICH VOR, wie es AUSSIEHT und wie es sich ANFÜHLT, diese Bewegungen SELBST auszuführen. Bleiben Sie dabei ruhig sitzen, SCHLIEßEN SIE IHRE AUGEN und BEWEGEN SIE SICH NICHT.\nDie Länge der Audioinstruktion variiert zufällig. Jede Audioinstruktion BEGINNT mit der Vorstellung einer aufrechten, stehenden Position. Verändern Sie IN IHRER VORSTELLUNG Ihre Körperposition entsprechend den instruierten Bewegungen.\nÖFFNEN Sie Ihre Augen beim SIGNALTON. Es erscheint ein Bild einer Person von hinten. Entscheiden Sie so SCHNELL UND KORREKT wie möglich, ob die Position dieser Person zu Ihrer Endposition in Ihrer Vorstellung passt. \nDrücken Sie für NEIN die Taste ‚G‘ mit Ihrem linken Mittelfinger und für JA die Taste ‚H‘ mit Ihrem linken Zeigefinger.', 'ES': 'Ahora escuchará en 36 ensayos una instrucción de audio que contiene entre 3 y 7 movimientos consecutivos. IMAGINE cómo SE VE y cómo SE SIENTE realizar estos movimientos USTED MISMO. Permanezca sentado tranquilamente, CIERRE LOS OJOS y NO SE MUEVA.\nLa duración de la instrucción de audio varía aleatoriamente. Cada instrucción de audio COMIENZA con la imaginación de una posición erguida, de pie. Modifique la posición de su cuerpo EN SU IMAGINACIÓN de acuerdo con los movimientos instruidos.\nABRA los ojos al TONO DE SEÑAL. Aparecerá una imagen de una persona vista desde atrás. Decida lo más RÁPIDA Y CORRECTAMENTE posible si la posición de esta persona coincide con su posición final en su imaginación.\nPulse la tecla ‘G’ con el dedo medio izquierdo para NO y la tecla ‘H’ con el dedo índice izquierdo para SÍ.', 'FR': 'Vous allez maintenant entendre, au cours de 36 essais, une instruction audio contenant 3 à 7 mouvements consécutifs. IMAGINEZ à quoi cela RESSEMBLE et ce que cela FAIT de réaliser VOUS-MÊME ces mouvements. Restez assis calmement, FERMEZ LES YEUX et NE BOUGEZ PAS.\nLa durée de l’instruction audio varie aléatoirement. Chaque instruction audio COMMENCE par l’imagerie\nd’une position debout et droite. Modifiez votre position corporelle DANS VOTRE IMAGERIE en fonction des mouvements instruits.\nOUVREZ les yeux au SIGNAL SONORE. Une image d’une personne vue de dos apparaît. Décidez aussi VITE ET CORRECTEMENT que possible si la position de cette personne correspond à votre position finale dans votre imagerie.\nAppuyez sur la touche « G » avec le majeur gauche pour NON et sur la touche « H » avec l’index gauche pour OUI.'}, {'message': 'task_instr_msg_1_right', 'EN': 'You will now hear an audio instruction in 36 trials, each containing 3 to 7 consecutive movements. IMAGINE what it LOOKS LIKE and how it FEELS to perform these movements YOURSELF. Remain seated calmly, CLOSE YOUR EYES and DO NOT MOVE.\nThe length of the audio instruction varies randomly. Each audio instruction BEGINS with imagining an upright, standing position. Change your body position IN YOUR IMAGERY according to the instructed movements.\nOPEN your eyes at the SIGNAL TONE. An image of a person seen from behind will appear. Decide as QUICKLY AND ACCURATELY as possible whether the position of this person matches your final position in your imagery.\nPress the ‘G’ key with your right index finger for NO and the ‘H’ key with your right middle finger for YES.', 'DE': 'Sie hören nun in 36 Durchgängen je eine Audioinstruktion, die 3 bis 7 aufeinanderfolgende Bewegungen enthält. STELLEN SIE SICH VOR, wie es AUSSIEHT und wie es sich ANFÜHLT, diese Bewegungen SELBST auszuführen. Bleiben Sie dabei ruhig sitzen, SCHLIEßEN SIE IHRE AUGEN und BEWEGEN SIE SICH NICHT.\nDie Länge der Audioinstruktion variiert zufällig. Jede Audioinstruktion BEGINNT mit der Vorstellung einer aufrechten, stehenden Position. Verändern Sie IN IHRER VORSTELLUNG Ihre Körperposition entsprechend den instruierten Bewegungen.\nÖFFNEN Sie Ihre Augen beim SIGNALTON. Es erscheint ein Bild einer Person von hinten. Entscheiden Sie so SCHNELL UND KORREKT wie möglich, ob die Position dieser Person zu Ihrer Endposition in Ihrer Vorstellung passt. \nDrücken Sie für NEIN die Taste ‚G‘ mit Ihrem rechten Zeigefinger und für JA die Taste ‚H‘ mit Ihrem rechten Mittelfinger.', 'ES': 'Ahora escuchará en 36 ensayos una instrucción de audio que contiene entre 3 y 7 movimientos consecutivos. IMAGINE cómo SE VE y cómo SE SIENTE realizar estos movimientos USTED MISMO. Permanezca sentado tranquilamente, CIERRE LOS OJOS y NO SE MUEVA.\nLa duración de la instrucción de audio varía aleatoriamente. Cada instrucción de audio COMIENZA con la imaginación de una posición erguida, de pie. Modifique la posición de su cuerpo EN SU IMAGINACIÓN de acuerdo con los movimientos instruidos.\nABRA los ojos al TONO DE SEÑAL. Aparecerá una imagen de una persona vista desde atrás. Decida lo más RÁPIDA Y CORRECTAMENTE posible si la posición de esta persona coincide con su posición final en su imaginación.\nPulse la tecla ‘G’ con el dedo índice derecho para NO y la tecla ‘H’ con el dedo medio derecho para SÍ.', 'FR': 'Vous allez maintenant entendre, au cours de 36 essais, une instruction audio contenant 3 à 7 mouvements consécutifs. IMAGINEZ à quoi cela RESSEMBLE et ce que cela FAIT de réaliser VOUS-MÊME ces mouvements. Restez assis calmement, FERMEZ LES YEUX et NE BOUGEZ PAS.\nLa durée de l’instruction audio varie aléatoirement. Chaque instruction audio COMMENCE par l’imagerie\nd’une position debout et droite. Modifiez votre position corporelle DANS VOTRE IMAGERIE en fonction des mouvements instruits.\nOUVREZ les yeux au SIGNAL SONORE. Une image d’une personne vue de dos apparaît. Décidez aussi VITE ET CORRECTEMENT que possible si la position de cette personne correspond à votre position finale dans votre imagerie.\nAppuyez sur la touche « G » avec l’index droit pour NON et sur la touche « H » avec le majeur droit pour OUI.'}, {'message': 'task_instr_msg_2a', 'EN': 'When making your decision, pay attention to the rotation of the upper body and to the position of the head, arms, and legs.\nBecause the movements build on each other, make sure that when you ROTATE YOUR UPPER BODY, your ARMS and your HEAD ROTATE WITH IT. Your LEGS do NOT rotate.', 'DE': 'Achten Sie bei Ihrer Entscheidung auf die Drehung des Oberkörpers, die Position des Kopfes, der Arme und Beine.\nDa die Bewegungen aufeinander aufbauen, achten Sie darauf, dass Sie bei DREHUNG IHRES OBERKÖRPERS Ihre ARME und Ihren KOPF MITDREHEN. Ihre BEINE drehen sich dabei NICHT mit.', 'ES': 'Al tomar su decisión, preste atención a la rotación del tronco, así como a la posición de la cabeza, los brazos y las piernas.\nDado que los movimientos se encadenan, asegúrese de que, cuando GIRE EL TRONCO, los BRAZOS y la CABEZA GIREN TAMBIÉN. Las PIERNAS, en cambio, NO giran.', 'FR': 'Lors de votre décision, prêtez attention à la rotation du haut du corps ainsi qu’à la position de la tête, des bras et des jambes.\nÉtant donné que les mouvements s’enchaînent, veillez à ce que, lorsque vous EFFECTUEZ UNE ROTATION DU HAUT DU CORPS, les BRAS et la TÊTE TOURNENT ÉGALEMENT. Les JAMBES, en revanche, ne tournent PAS.'}, {'message': 'task_instr_msg_2b', 'EN': 'Examples:\n&lt;== Tilting the head downward &amp; rotating the upper body to the left.\nRaising the left arm in front of the body in the direction of gaze &amp; rotating the upper body to the left ==&gt;', 'DE': 'Beispiele:\n&lt;== Neigung des Kopfes nach unten &amp; Drehung des Oberkörpers nach links.\nAnheben des linken Arms in Blickrichtung nach vorne &amp; Drehung des Oberkörpers nach links ==&gt;', 'ES': 'Ejemplos:\n&lt;== Inclinar la cabeza hacia abajo &amp; girar el tronco hacia la izquierda.\nElevar el brazo izquierdo hacia delante en la dirección de la mirada &amp; girar el tronco hacia la izquierda ==&gt;', 'FR': 'Exemples :\n&lt;== Incliner la tête vers le bas &amp; faire pivoter le haut du corps vers la gauche.\nLever le bras gauche vers l’avant dans la direction du regard &amp; faire pivoter le haut du corps vers la gauche ==&gt;'}, {'message': 'task_instr_msg_2c', 'EN': 'Additionally, use the orange CROSS ON THE FLOOR AS A REFERENCE to decide whether the position of the legs of the person in the image is correct.', 'DE': 'Nutzen Sie außerdem das orange KREUZ AM BODEN ALS ORIENTIERUNG, um zu entscheiden, ob die Position der Beine bei der Person im Bild korrekt ist. ', 'ES': 'Además, utilice la CRUZ NARANJA EN EL SUELO COMO REFERENCIA para decidir si la posición de las piernas de la persona en la imagen es correcta.', 'FR': 'Utilisez également la CROIX ORANGE AU SOL COMME REPÈRE afin de décider si la position des jambes de la personne sur l’image est correcte.'}, {'message': 'CC_instr_msg_1', 'EN': 'Please select all statements that apply:', 'DE': 'Bitte wählen Sie Zutreffendes aus:', 'ES': 'Por favor, seleccione todas las afirmaciones que correspondan:', 'FR': 'Veuillez sélectionner toutes les affirmations qui s’appliquent :'}, {'message': 'CC_instr_msg_2', 'EN': 'In the following task…', 'DE': 'Bei der folgenden Aufgabe…', 'ES': 'En la siguiente tarea…', 'FR': 'Dans la tâche suivante…'}, {'message': 'CC_option_A', 'EN': 'you are supposed to actually perform the instructed movements.', 'DE': 'sollen Sie die instruierten Bewegungen tatsächlich ausführen. ', 'ES': 'se supone que debe ejecutar realmente los movimientos instruidos.', 'FR': 'vous êtes censé(e) exécuter réellement les mouvements instruits.'}, {'message': 'CC_option_B', 'EN': 'you are supposed to imagine how the person in the picture performs the movements.', 'DE': 'sollen Sie sich vorstellen, wie die Person auf dem Bild die Bewegungen ausführt. ', 'ES': 'se supone que debe imaginar cómo la persona en la imagen realiza los movimientos.', 'FR': 'vous êtes censé(e) imaginer comment la personne sur l’image exécute les mouvements.'}, {'message': 'CC_option_C', 'EN': 'you are supposed to imagine how it looks and how it feels to perform the movements from the audio instruction yourself.', 'DE': 'sollen Sie sich vorstellen, wie es aussieht und wie es sich anfühlt, die Bewegungen aus der Audioinstruktion selbst auszuführen. ', 'ES': 'se supone que debe imaginar cómo se ve y cómo se siente realizar usted mismo los movimientos de la instrucción auditiva.', 'FR': 'vous êtes censé(e) imaginer à quoi cela ressemble et ce que l’on ressent lorsque vous exécutez vous-même les mouvements issus de l’instruction audio.'}, {'message': 'CC_option_D', 'EN': 'the imagined movements build on each other within a single trial.', 'DE': 'bauen die vorgestellten Bewegungen innerhalb eines Durchgangs aufeinander auf.', 'ES': 'los movimientos imaginados se construyen unos sobre otros dentro de un mismo ensayo.', 'FR': 'les mouvements imaginés s’enchaînent les uns aux autres au sein d’un même essai.'}, {'message': 'CC_option_E', 'EN': 'it is unimportant how quickly you decide whether the picture matches your final position in your imagery.', 'DE': 'ist es unwichtig, wie schnell Sie sich entscheiden, ob das Bild zu Ihrer Endposition in Ihrer Vorstellung passt. ', 'ES': 'no es importante cuán rápido decida si la imagen coincide con su posición final en su imaginación.', 'FR': 'il est sans importance à quelle vitesse vous décidez si l’image correspond à votre position finale dans votre imagerie.'}, {'message': 'CC_option_F', 'EN': 'keep your eyes closed during each trial until you hear a signal tone.', 'DE': 'halten Sie Ihre Augen in jedem Durchgang solange geschlossen, bis Sie einen Signalton hören. ', 'ES': 'mantenga los ojos cerrados durante cada ensayo hasta que escuche una señal sonora.', 'FR': 'gardez les yeux fermés pendant chaque essai jusqu’à ce que vous entendiez un signal sonore.'}, {'message': 'CC_error', 'EN': 'Unfortunately, your answers were not completely correct.\nPlease read the instructions carefully again.', 'DE': 'Leider waren Ihre Antworten nicht vollständig korrekt.\nBitte lesen Sie die Instruktionen erneut und aufmerksam durch.', 'ES': 'Lamentablemente, sus respuestas no fueron completamente correctas.\nPor favor, lea las instrucciones de nuevo atentamente.', 'FR': 'Malheureusement, vos réponses n’étaient pas entièrement correctes.\nVeuillez relire attentivement les instructions.'}, {'message': 'feedback_correct_msg', 'EN': 'CORRECT response', 'DE': 'KORREKTE Antwort', 'ES': 'Respuesta CORRECTA', 'FR': 'Réponse CORRECTE'}, {'message': 'feedback_incorrect_msg', 'EN': 'INCORRECT response', 'DE': 'FEHLER', 'ES': 'Respuesta INCORRECTA', 'FR': 'Réponse INCORRECTE'}, {'message': 'pract_instr_msg', 'EN': 'There will now be 4 practice trials.', 'DE': 'Es folgen nun 4 Übungsdurchgänge.', 'ES': 'A continuación habrá 4 ensayos de práctica.', 'FR': 'Il va maintenant y avoir 4 essais d’entraînement.'}, {'message': 'task_instr_msg_3_bimanual', 'EN': 'Now place your index fingers on the ‘S’ and ‘L’ keys.\nKeep your fingers resting on these keys until you have completed all trials of the task.\nWhen you are ready, press the space bar with your thumb.', 'DE': 'Positionieren Sie Ihre Zeigefinger nun auf den Tasten ‚S‘ und ‚L‘ .\nLassen Sie Ihre Finger auf diesen Tasten ruhen, bis Sie alle Durchgänge der Aufgabe absolviert haben.\nWenn Sie bereit sind, drücken Sie mit Ihrem Daumen die Leertaste.', 'ES': 'Coloque ahora sus dedos índices sobre las teclas “S” y “L”.\nMantenga los dedos apoyados sobre estas teclas hasta que haya completado todos los ensayos de la tarea.\nCuando esté listo/a, presione la barra espaciadora con el pulgar.', 'FR': 'Placez maintenant vos index sur les touches « S » et « L ».\nLaissez vos doigts reposer sur ces touches jusqu’à ce que vous ayez terminé tous les essais de la tâche.\nLorsque vous êtes prêt(e), appuyez sur la barre d’espace avec votre pouce.'}, {'message': 'task_instr_msg_3_left', 'EN': 'Now place the index and middle fingers of your left hand on the ‘G’ and ‘H’ keys.\nKeep your fingers resting on these keys until you have completed all trials of the task.\nWhen you are ready, press the space bar with your thumb.', 'DE': 'Positionieren Sie Mittel- und Zeigefinger Ihrer linken Hand nun auf den Tasten ‚G‘ und ‚H‘ .\nLassen Sie Ihre Finger auf diesen Tasten ruhen, bis Sie alle Durchgänge der Aufgabe absolviert haben.\nWenn Sie bereit sind, drücken Sie mit Ihrem Daumen die Leertaste.', 'ES': 'Coloque ahora el dedo índice y el dedo medio de su mano izquierda sobre las teclas “G” y “H”.\nMantenga los dedos apoyados sobre estas teclas hasta que haya completado todos los ensayos de la tarea.\nCuando esté listo/a, presione la barra espaciadora con el pulgar.', 'FR': 'Placez maintenant l’index et le majeur de votre main gauche sur les touches « G » et « H ».\nLaissez vos doigts reposer sur ces touches jusqu’à ce que vous ayez terminé tous les essais de la tâche.\nLorsque vous êtes prêt(e), appuyez sur la barre d’espace avec votre pouce.'}, {'message': 'task_instr_msg_3_right', 'EN': 'Now place the index and middle fingers of your right hand on the ‘G’ and ‘H’ keys.\nKeep your fingers resting on these keys until you have completed all trials of the task.\nWhen you are ready, press the space bar with your thumb.', 'DE': 'Positionieren Sie Zeige- und Mittelfinger Ihrer rechten Hand nun auf den Tasten ‚G‘ und ‚H‘ .\nLassen Sie Ihre Finger auf diesen Tasten ruhen, bis Sie alle Durchgänge der Aufgabe absolviert haben.\nWenn Sie bereit sind, drücken Sie mit Ihrem Daumen die Leertaste.', 'ES': 'Coloque ahora el dedo índice y el dedo medio de su mano derecha sobre las teclas “G” y “H”.\nMantenga los dedos apoyados sobre estas teclas hasta que haya completado todos los ensayos de la tarea.\nCuando esté listo/a, presione la barra espaciadora con el pulgar.', 'FR': 'Placez maintenant l’index et le majeur de votre main droite sur les touches « G » et « H ».\nLaissez vos doigts reposer sur ces touches jusqu’à ce que vous ayez terminé tous les essais de la tâche.\nLorsque vous êtes prêt(e), appuyez sur la barre d’espace avec votre pouce.'}, {'message': 'testbl_instr_msg', 'EN': 'There will now be 32 trials in which we will measure your data.\nEach one counts!', 'DE': 'Es folgen nun 32 Durchgänge, in denen wir Ihre Daten messen möchten.\nJeder davon zählt!', 'ES': 'A continuación habrá 32 ensayos en los que mediremos sus datos.\n¡Cada uno cuenta!', 'FR': 'Il va maintenant y avoir 32 essais au cours desquels nous souhaitons mesurer vos données.\nChacun d’entre eux compte !'}, {'message': 'no_feedback_msg', 'EN': 'You will now receive no further feedback.', 'DE': 'Sie werden nun keine Rückmeldungen mehr erhalten.', 'ES': 'A partir de ahora no recibirá más retroalimentación.', 'FR': 'Vous ne recevrez désormais plus aucun retour.'}, {'message': 'reminder_msg', 'EN': 'Reminder:\nImagine WHAT IT LOOKS LIKE and HOW IT FEELS to perform the movements described in the audio instruction yourself.\nOpen your eyes when you hear the signal tone. Decide as QUICKLY AND ACCURATELY as possible whether the displayed image matches the final position in your imagery.', 'DE': 'Erinnerung:\nStellen Sie sich vor, WIE ES AUSSIEHT und WIE ES SICH ANFÜHLT, die in der Audioinstruktion beschriebenen Bewegungen selbst auszuführen.\nÖffnen Sie Ihre Augen beim Signalton. Entscheiden Sie so SCHNELL UND KORREKT wie möglich, ob das gezeigte Bild zu der Endposition in Ihrer Vorstellung passt.', 'ES': 'Recordatorio:\nImagine CÓMO SE VE y CÓMO SE SIENTE ejecutar usted mismo/a los movimientos descritos en la instrucción auditiva.\nAbra los ojos cuando escuche la señal sonora. Decida lo más RÁPIDA Y CORRECTAMENTE posible si la imagen mostrada coincide con la posición final en su imagery.', 'FR': 'Imaginez À QUOI CELA RESSEMBLE et CE QUE L’ON RESSENT en exécutant vous-même les mouvements décrits dans l’instruction audio.\nOuvrez les yeux lorsque vous entendez le signal sonore. Décidez aussi RAPIDEMENT ET CORRECTEMENT que possible si l’image affichée correspond à la position finale dans votre imagerie.'}, {'message': 'close_eyes_msg', 'EN': 'Close your eyes!', 'DE': 'Schließen Sie Ihre Augen!', 'ES': '¡Cierre los ojos!', 'FR': 'Fermez les yeux !'}, {'message': 'yes_msg', 'EN': 'yes', 'DE': 'ja', 'ES': 'sí', 'FR': 'oui'}, {'message': 'no_msg', 'EN': 'no', 'DE': 'nein', 'ES': 'no', 'FR': 'non'}, {'message': 'start_msg', 'EN': 'press SPACE to start trial', 'DE': 'Durchgang starten mit LEERTASTE', 'ES': 'pulse la BARRA ESPACIADORA para iniciar el ensayo', 'FR': 'appuyez sur la BARRE D’ESPACE pour démarrer l’essai'}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'message': 'welcome_msg', 'EN': 'Welcome to the experiment!', 'DE': 'Willkommen zum Experiment!', 'ES': 'Bienvenido/a al experimento.', 'FR': 'Bienvenue dans l’expérience.'}, {'message': 'adv_msg', 'EN': 'press SPACE to continue', 'DE': 'zum Fortfahren LEERTASTE drücken', 'ES': 'Pulse la BARRA ESPACIADORA para continuar.', 'FR': 'Appuyez sur la BARRE D’ESPACE pour continuer.'}, {'message': 'bye_msg', 'EN': 'This is the end of the experiment.\nThank you for participating!\nThe experiment finishes in 3 seconds.', 'DE': 'Dies ist das Ende des Experiments.\nVielen Dank für Ihre Teilnahme!\nDas Experiment schließt sich in 3 Sekunden.', 'ES': 'Este es el final del experimento.\nGracias por su participación.\nEl experimento finalizará en 3 segundos.', 'FR': 'Ceci est la fin de l’expérience.\nMerci pour votre participation.\nL’expérience se terminera dans 3 secondes.'}, {'message': 'volume_calib_msg', 'EN': 'In this experiment, you will listen to multiple audio recordings. Click on “Play test sound” and adjust the volume on your device accordingly.', 'DE': 'In diesem Experiment werden Sie mehrere Audios anhören. Klicken Sie auf ‚Testton abspielen‘ abspielen und stellen Sie die Lautstärke an Ihrem Gerät passend ein.', 'ES': 'En este experimento, escuchará varios audios. Haga clic en “Reproducir sonido de prueba” y ajuste el volumen de su dispositivo según sea necesario.', 'FR': 'Dans cette expérience, vous écouterez plusieurs enregistrements audio. Cliquez sur « Lire le son de test » et ajustez le volume de votre appareil en conséquence.'}, {'message': 'testsound_label', 'EN': 'Play test sound', 'DE': 'Testton abspielen', 'ES': 'Reproducir sonido de prueba', 'FR': 'Lire le son de test'}, {'message': 'testsound', 'EN': 'Adjust the volume on your device so that you can hear this audio clearly. Please keep the volume unchanged afterwards. Then press the space bar to continue.', 'DE': 'Stellen Sie die Lautstärke an Ihrem Gerät so ein, dass Sie dieses Audio klar und deutlich hören können. Bitte lassen Sie die Lautstärke anschließend unverändert. Drücken Sie danach die Leertaste, um fortzufahren.', 'ES': 'Ajuste el volumen de su dispositivo para que pueda escuchar este audio con claridad. Por favor, mantenga el volumen sin cambios a continuación. Luego presione la barra espaciadora para continuar.', 'FR': 'Réglez le volume de votre appareil de manière à entendre clairement cet audio. Veuillez ensuite laisser le volume inchangé. Appuyez ensuite sur la barre d’espace pour continuer.'}, {'message': 'fam_msg_1a', 'EN': 'In the following, you will see 16 images of a person from behind who started in this upright, standing position …', 'DE': 'Im Folgenden sehen Sie 16 Bilder einer Person von hinten, die in dieser aufrechten, stehenden Position startete… ', 'ES': 'A continuación, verá 16 imágenes de una persona vista desde atrás, que comenzó en esta posición erguida y de pie …', 'FR': 'Dans ce qui suit, vous verrez 16 images d’une personne vue de dos, qui a commencé dans cette position droite et debout …'}, {'message': 'fam_msg_1b', 'EN': '… and then performed a movement.', 'DE': '… und danach eine Bewegung ausführte.', 'ES': '… y después realizó un movimiento.', 'FR': '… et a ensuite effectué un mouvement.'}, {'message': 'fam_msg_2', 'EN': 'Decide which movement the person in the image was instructed to perform:', 'DE': 'Entscheiden Sie, welche Bewegung der Person im Bild instruiert wurde: ', 'ES': 'Decida qué movimiento le fue instruido a la persona en la imagen:', 'FR': 'Décidez quel mouvement a été instruit à la personne sur l’image:'}, {'message': 'straight', 'EN': 'Assume an upright, standing posture.', 'DE': 'Nehmen Sie eine aufrechte, stehende Haltung ein.', 'ES': 'Adopte una postura erguida y de pie.', 'FR': 'Adoptez une posture droite et debout.'}, {'message': 'no_movement', 'EN': 'None.', 'DE': 'Keine.', 'ES': 'Ninguna.', 'FR': 'Aucune.'}, {'message': 'right_arm_side', 'EN': 'Raise your right arm to your side.', 'DE': 'Heben Sie Ihren rechten Arm zu Ihrer Seite an.', 'ES': 'Levante su brazo derecho hacia su lado.', 'FR': 'Levez votre bras droit vers votre côté.'}, {'message': 'left_arm_side', 'EN': 'Raise your left arm to your side.', 'DE': 'Heben Sie Ihren linken Arm zu Ihrer Seite an.', 'ES': 'Levante su brazo izquierdo hacia su lado.', 'FR': 'Levez votre bras gauche vers votre côté.'}, {'message': 'right_arm_front', 'EN': 'Raise your right arm forward in the direction of your gaze.', 'DE': 'Heben Sie Ihren rechten Arm in Blickrichtung vor sich an.', 'ES': 'Levante su brazo derecho en la dirección de su mirada frente a usted.', 'FR': 'Levez votre bras droit dans la direction de votre regard devant vous.'}, {'message': 'left_arm_front', 'EN': 'Raise your left arm forward in the direction of your gaze.', 'DE': 'Heben Sie Ihren linken Arm in Blickrichtung vor sich an.', 'ES': 'Levante su brazo izquierdo en la dirección de su mirada frente a usted.', 'FR': 'Levez votre bras gauche dans la direction de votre regard devant vous.'}, {'message': 'right_arm_up', 'EN': 'Raise your right arm vertically upwards.', 'DE': 'Heben Sie Ihren rechten Arm senkrecht nach oben an.', 'ES': 'Levante su brazo derecho verticalmente hacia arriba.', 'FR': 'Levez votre bras droit verticalement vers le haut.'}, {'message': 'left_arm_up', 'EN': 'Raise your left arm vertically upwards.', 'DE': 'Heben Sie Ihren linken Arm senkrecht nach oben an.', 'ES': 'Levante su brazo izquierdo verticalmente hacia arriba.', 'FR': 'Levez votre bras gauche verticalement vers le haut.'}, {'message': 'right_leg_side', 'EN': 'Take a small step to the side with your right leg.', 'DE': 'Machen Sie mit Ihrem rechten Bein einen kleinen Schritt zur Seite. ', 'ES': 'Dé un pequeño paso hacia su lado con la pierna derecha.', 'FR': 'Faites un petit pas vers votre côté avec la jambe droite.'}, {'message': 'left_leg_side', 'EN': 'Take a small step to the side with your left leg.', 'DE': 'Machen Sie mit Ihrem linken Bein einen kleinen Schritt zur Seite. ', 'ES': 'Dé un pequeño paso hacia su lado con la pierna izquierda.', 'FR': 'Faites un petit pas vers votre côté avec la jambe gauche.'}, {'message': 'right_leg_front', 'EN': 'Take a small step forward with your right leg.', 'DE': 'Machen Sie mit Ihrem rechten Bein einen kleinen Schritt nach vorne. ', 'ES': 'Dé un pequeño paso hacia delante con la pierna derecha.', 'FR': 'Faites un petit pas vers l’avant avec la jambe droite.'}, {'message': 'left_leg_front', 'EN': 'Take a small step forward with your left leg.', 'DE': 'Machen Sie mit Ihrem linken Bein einen kleinen Schritt nach vorne. ', 'ES': 'Dé un pequeño paso hacia delante con la pierna izquierda.', 'FR': 'Faites un petit pas vers l’avant avec la jambe gauche.'}, {'message': 'right_leg_back', 'EN': 'Take a small step backward with your right leg.', 'DE': 'Machen Sie mit Ihrem rechten Bein einen kleinen Schritt nach hinten. ', 'ES': 'Dé un pequeño paso hacia atrás con la pierna derecha.', 'FR': 'Faites un petit pas vers l’arrière avec la jambe droite.'}, {'message': 'left_leg_back', 'EN': 'Take a small step backward with your left leg.', 'DE': 'Machen Sie mit Ihrem linken Bein einen kleinen Schritt nach hinten. ', 'ES': 'Dé un pequeño paso hacia atrás con la pierna izquierda', 'FR': 'Faites un petit pas vers l’arrière avec la jambe gauche.'}, {'message': 'torso_right', 'EN': 'Turn your upper body to the right.', 'DE': 'Drehen Sie Ihren Oberkörper nach rechts.', 'ES': 'Gire su parte superior del cuerpo hacia la derecha.', 'FR': 'Tournez votre haut du corps vers la droite.'}, {'message': 'torso_left', 'EN': 'Turn your upper body to the left.', 'DE': 'Drehen Sie Ihren Oberkörper nach links.', 'ES': 'Gire su parte superior del cuerpo hacia la izquierda.', 'FR': 'Tournez votre haut du corps vers la gauche.'}, {'message': 'head_up', 'EN': 'Tilt your head upwards.', 'DE': 'Neigen Sie Ihren Kopf nach oben.', 'ES': 'Incline su cabeza hacia arriba.', 'FR': 'Inclinez votre tête vers le haut.'}, {'message': 'head_down', 'EN': 'Tilt your head downwards.', 'DE': 'Neigen Sie Ihren Kopf nach unten.', 'ES': 'Incline su cabeza hacia abajo.', 'FR': 'Inclinez votre tête vers le bas.'}, {'message': 'fam_solution_msg', 'EN': 'The correct answer was:', 'DE': 'Die korrekte Antwort war:', 'ES': 'La respuesta correcta fue:', 'FR': 'La réponse correcte était:'}, {'message': 'task_instr_msg_1_bimanual', 'EN': 'You will now hear an audio instruction in 36 trials, each containing 3 to 7 consecutive movements. IMAGINE what it LOOKS LIKE and how it FEELS to perform these movements YOURSELF. Remain seated calmly, CLOSE YOUR EYES and DO NOT MOVE.\nThe length of the audio instruction varies randomly. Each audio instruction BEGINS with imagining an upright, standing position. Change your body position IN YOUR IMAGERY according to the instructed movements.\nOPEN your eyes at the SIGNAL TONE. An image of a person seen from behind will appear. Decide as QUICKLY AND ACCURATELY as possible whether the position of this person matches your final position in your imagery.\nPress the ‘S’ key with your left index finger for NO and the ‘L’ key with your right index finger for YES.', 'DE': 'Sie hören nun in 36 Durchgängen je eine Audioinstruktion, die 3 bis 7 aufeinanderfolgende Bewegungen enthält. STELLEN SIE SICH VOR, wie es AUSSIEHT und wie es sich ANFÜHLT, diese Bewegungen SELBST auszuführen. Bleiben Sie dabei ruhig sitzen, SCHLIEßEN SIE IHRE AUGEN und BEWEGEN SIE SICH NICHT.\nDie Länge der Audioinstruktion variiert zufällig. Jede Audioinstruktion BEGINNT mit der Vorstellung einer aufrechten, stehenden Position. Verändern Sie IN IHRER VORSTELLUNG Ihre Körperposition entsprechend den instruierten Bewegungen.\nÖFFNEN Sie Ihre Augen beim SIGNALTON. Es erscheint ein Bild einer Person von hinten. Entscheiden Sie so SCHNELL UND KORREKT wie möglich, ob die Position dieser Person zu Ihrer Endposition in Ihrer Vorstellung passt. \nDrücken Sie für NEIN die Taste ‚S‘ mit Ihrem linken Zeigefinger und für JA die Taste ‚L‘ mit Ihrem rechten Zeigefinger.', 'ES': 'Ahora escuchará en 36 ensayos una instrucción de audio que contiene entre 3 y 7 movimientos consecutivos. IMAGINE cómo SE VE y cómo SE SIENTE realizar estos movimientos USTED MISMO. Permanezca sentado tranquilamente, CIERRE LOS OJOS y NO SE MUEVA.\nLa duración de la instrucción de audio varía aleatoriamente. Cada instrucción de audio COMIENZA con la imaginación de una posición erguida, de pie. Modifique la posición de su cuerpo EN SU IMAGINACIÓN de acuerdo con los movimientos instruidos.\nABRA los ojos al TONO DE SEÑAL. Aparecerá una imagen de una persona vista desde atrás. Decida lo más RÁPIDA Y CORRECTAMENTE posible si la posición de esta persona coincide con su posición final en su imaginación.\nPulse la tecla ‘S’ con el dedo índice izquierdo para NO y la tecla ‘L’ con el dedo índice derecho para SÍ.', 'FR': 'Vous allez maintenant entendre, au cours de 36 essais, une instruction audio contenant 3 à 7 mouvements consécutifs. IMAGINEZ à quoi cela RESSEMBLE et ce que cela FAIT de réaliser VOUS-MÊME ces mouvements. Restez assis calmement, FERMEZ LES YEUX et NE BOUGEZ PAS.\nLa durée de l’instruction audio varie aléatoirement. Chaque instruction audio COMMENCE par l’imagerie\nd’une position debout et droite. Modifiez votre position corporelle DANS VOTRE IMAGERIE en fonction des mouvements instruits.\nOUVREZ les yeux au SIGNAL SONORE. Une image d’une personne vue de dos apparaît. Décidez aussi VITE ET CORRECTEMENT que possible si la position de cette personne correspond à votre position finale dans votre imagerie.\nAppuyez sur la touche « S » avec l’index gauche pour NON et sur la touche « L » avec l’index droit pour OUI.'}, {'message': 'task_instr_msg_1_left', 'EN': 'You will now hear an audio instruction in 36 trials, each containing 3 to 7 consecutive movements. IMAGINE what it LOOKS LIKE and how it FEELS to perform these movements YOURSELF. Remain seated calmly, CLOSE YOUR EYES and DO NOT MOVE.\nThe length of the audio instruction varies randomly. Each audio instruction BEGINS with imagining an upright, standing position. Change your body position IN YOUR IMAGERY according to the instructed movements.\nOPEN your eyes at the SIGNAL TONE. An image of a person seen from behind will appear. Decide as QUICKLY AND ACCURATELY as possible whether the position of this person matches your final position in your imagery.\nPress the ‘G’ key with your left middle finger for NO and the ‘H’ key with your left index finger for YES.', 'DE': 'Sie hören nun in 36 Durchgängen je eine Audioinstruktion, die 3 bis 7 aufeinanderfolgende Bewegungen enthält. STELLEN SIE SICH VOR, wie es AUSSIEHT und wie es sich ANFÜHLT, diese Bewegungen SELBST auszuführen. Bleiben Sie dabei ruhig sitzen, SCHLIEßEN SIE IHRE AUGEN und BEWEGEN SIE SICH NICHT.\nDie Länge der Audioinstruktion variiert zufällig. Jede Audioinstruktion BEGINNT mit der Vorstellung einer aufrechten, stehenden Position. Verändern Sie IN IHRER VORSTELLUNG Ihre Körperposition entsprechend den instruierten Bewegungen.\nÖFFNEN Sie Ihre Augen beim SIGNALTON. Es erscheint ein Bild einer Person von hinten. Entscheiden Sie so SCHNELL UND KORREKT wie möglich, ob die Position dieser Person zu Ihrer Endposition in Ihrer Vorstellung passt. \nDrücken Sie für NEIN die Taste ‚G‘ mit Ihrem linken Mittelfinger und für JA die Taste ‚H‘ mit Ihrem linken Zeigefinger.', 'ES': 'Ahora escuchará en 36 ensayos una instrucción de audio que contiene entre 3 y 7 movimientos consecutivos. IMAGINE cómo SE VE y cómo SE SIENTE realizar estos movimientos USTED MISMO. Permanezca sentado tranquilamente, CIERRE LOS OJOS y NO SE MUEVA.\nLa duración de la instrucción de audio varía aleatoriamente. Cada instrucción de audio COMIENZA con la imaginación de una posición erguida, de pie. Modifique la posición de su cuerpo EN SU IMAGINACIÓN de acuerdo con los movimientos instruidos.\nABRA los ojos al TONO DE SEÑAL. Aparecerá una imagen de una persona vista desde atrás. Decida lo más RÁPIDA Y CORRECTAMENTE posible si la posición de esta persona coincide con su posición final en su imaginación.\nPulse la tecla ‘G’ con el dedo medio izquierdo para NO y la tecla ‘H’ con el dedo índice izquierdo para SÍ.', 'FR': 'Vous allez maintenant entendre, au cours de 36 essais, une instruction audio contenant 3 à 7 mouvements consécutifs. IMAGINEZ à quoi cela RESSEMBLE et ce que cela FAIT de réaliser VOUS-MÊME ces mouvements. Restez assis calmement, FERMEZ LES YEUX et NE BOUGEZ PAS.\nLa durée de l’instruction audio varie aléatoirement. Chaque instruction audio COMMENCE par l’imagerie\nd’une position debout et droite. Modifiez votre position corporelle DANS VOTRE IMAGERIE en fonction des mouvements instruits.\nOUVREZ les yeux au SIGNAL SONORE. Une image d’une personne vue de dos apparaît. Décidez aussi VITE ET CORRECTEMENT que possible si la position de cette personne correspond à votre position finale dans votre imagerie.\nAppuyez sur la touche « G » avec le majeur gauche pour NON et sur la touche « H » avec l’index gauche pour OUI.'}, {'message': 'task_instr_msg_1_right', 'EN': 'You will now hear an audio instruction in 36 trials, each containing 3 to 7 consecutive movements. IMAGINE what it LOOKS LIKE and how it FEELS to perform these movements YOURSELF. Remain seated calmly, CLOSE YOUR EYES and DO NOT MOVE.\nThe length of the audio instruction varies randomly. Each audio instruction BEGINS with imagining an upright, standing position. Change your body position IN YOUR IMAGERY according to the instructed movements.\nOPEN your eyes at the SIGNAL TONE. An image of a person seen from behind will appear. Decide as QUICKLY AND ACCURATELY as possible whether the position of this person matches your final position in your imagery.\nPress the ‘G’ key with your right index finger for NO and the ‘H’ key with your right middle finger for YES.', 'DE': 'Sie hören nun in 36 Durchgängen je eine Audioinstruktion, die 3 bis 7 aufeinanderfolgende Bewegungen enthält. STELLEN SIE SICH VOR, wie es AUSSIEHT und wie es sich ANFÜHLT, diese Bewegungen SELBST auszuführen. Bleiben Sie dabei ruhig sitzen, SCHLIEßEN SIE IHRE AUGEN und BEWEGEN SIE SICH NICHT.\nDie Länge der Audioinstruktion variiert zufällig. Jede Audioinstruktion BEGINNT mit der Vorstellung einer aufrechten, stehenden Position. Verändern Sie IN IHRER VORSTELLUNG Ihre Körperposition entsprechend den instruierten Bewegungen.\nÖFFNEN Sie Ihre Augen beim SIGNALTON. Es erscheint ein Bild einer Person von hinten. Entscheiden Sie so SCHNELL UND KORREKT wie möglich, ob die Position dieser Person zu Ihrer Endposition in Ihrer Vorstellung passt. \nDrücken Sie für NEIN die Taste ‚G‘ mit Ihrem rechten Zeigefinger und für JA die Taste ‚H‘ mit Ihrem rechten Mittelfinger.', 'ES': 'Ahora escuchará en 36 ensayos una instrucción de audio que contiene entre 3 y 7 movimientos consecutivos. IMAGINE cómo SE VE y cómo SE SIENTE realizar estos movimientos USTED MISMO. Permanezca sentado tranquilamente, CIERRE LOS OJOS y NO SE MUEVA.\nLa duración de la instrucción de audio varía aleatoriamente. Cada instrucción de audio COMIENZA con la imaginación de una posición erguida, de pie. Modifique la posición de su cuerpo EN SU IMAGINACIÓN de acuerdo con los movimientos instruidos.\nABRA los ojos al TONO DE SEÑAL. Aparecerá una imagen de una persona vista desde atrás. Decida lo más RÁPIDA Y CORRECTAMENTE posible si la posición de esta persona coincide con su posición final en su imaginación.\nPulse la tecla ‘G’ con el dedo índice derecho para NO y la tecla ‘H’ con el dedo medio derecho para SÍ.', 'FR': 'Vous allez maintenant entendre, au cours de 36 essais, une instruction audio contenant 3 à 7 mouvements consécutifs. IMAGINEZ à quoi cela RESSEMBLE et ce que cela FAIT de réaliser VOUS-MÊME ces mouvements. Restez assis calmement, FERMEZ LES YEUX et NE BOUGEZ PAS.\nLa durée de l’instruction audio varie aléatoirement. Chaque instruction audio COMMENCE par l’imagerie\nd’une position debout et droite. Modifiez votre position corporelle DANS VOTRE IMAGERIE en fonction des mouvements instruits.\nOUVREZ les yeux au SIGNAL SONORE. Une image d’une personne vue de dos apparaît. Décidez aussi VITE ET CORRECTEMENT que possible si la position de cette personne correspond à votre position finale dans votre imagerie.\nAppuyez sur la touche « G » avec l’index droit pour NON et sur la touche « H » avec le majeur droit pour OUI.'}, {'message': 'task_instr_msg_2a', 'EN': 'When making your decision, pay attention to the rotation of the upper body and to the position of the head, arms, and legs.\nBecause the movements build on each other, make sure that when you ROTATE YOUR UPPER BODY, your ARMS and your HEAD ROTATE WITH IT. Your LEGS do NOT rotate.', 'DE': 'Achten Sie bei Ihrer Entscheidung auf die Drehung des Oberkörpers, die Position des Kopfes, der Arme und Beine.\nDa die Bewegungen aufeinander aufbauen, achten Sie darauf, dass Sie bei DREHUNG IHRES OBERKÖRPERS Ihre ARME und Ihren KOPF MITDREHEN. Ihre BEINE drehen sich dabei NICHT mit.', 'ES': 'Al tomar su decisión, preste atención a la rotación del tronco, así como a la posición de la cabeza, los brazos y las piernas.\nDado que los movimientos se encadenan, asegúrese de que, cuando GIRE EL TRONCO, los BRAZOS y la CABEZA GIREN TAMBIÉN. Las PIERNAS, en cambio, NO giran.', 'FR': 'Lors de votre décision, prêtez attention à la rotation du haut du corps ainsi qu’à la position de la tête, des bras et des jambes.\nÉtant donné que les mouvements s’enchaînent, veillez à ce que, lorsque vous EFFECTUEZ UNE ROTATION DU HAUT DU CORPS, les BRAS et la TÊTE TOURNENT ÉGALEMENT. Les JAMBES, en revanche, ne tournent PAS.'}, {'message': 'task_instr_msg_2b', 'EN': 'Examples:\n&lt;== Tilting the head downward &amp; rotating the upper body to the left.\nRaising the left arm forward in the direction of gaze &amp; rotating the upper body to the left ==&gt;', 'DE': 'Beispiele:\n&lt;== Neigung des Kopfes nach unten &amp; Drehung des Oberkörpers nach links.\nAnheben des linken Arms in Blickrichtung nach vorne &amp; Drehung des Oberkörpers nach links ==&gt;', 'ES': 'Ejemplos:\n&lt;== Inclinar la cabeza hacia abajo &amp; girar el tronco hacia la izquierda.\nElevar el brazo izquierdo hacia delante en la dirección de la mirada &amp; girar el tronco hacia la izquierda ==&gt;', 'FR': 'Exemples :\n&lt;== Incliner la tête vers le bas &amp; faire pivoter le haut du corps vers la gauche.\nLever le bras gauche vers l’avant dans la direction du regard &amp; faire pivoter le haut du corps vers la gauche ==&gt;'}, {'message': 'task_instr_msg_2c', 'EN': 'Additionally, use the orange CROSS ON THE FLOOR AS A REFERENCE to decide whether the position of the legs of the person in the image is correct.', 'DE': 'Nutzen Sie außerdem das orange KREUZ AM BODEN ALS ORIENTIERUNG, um zu entscheiden, ob die Position der Beine bei der Person im Bild korrekt ist. ', 'ES': 'Además, utilice la CRUZ NARANJA EN EL SUELO COMO REFERENCIA para decidir si la posición de las piernas de la persona en la imagen es correcta.', 'FR': 'Utilisez également la CROIX ORANGE AU SOL COMME REPÈRE afin de décider si la position des jambes de la personne sur l’image est correcte.'}, {'message': 'CC_instr_msg_1', 'EN': 'Please select all statements that apply:', 'DE': 'Bitte wählen Sie Zutreffendes aus:', 'ES': 'Por favor, seleccione todas las afirmaciones que correspondan:', 'FR': 'Veuillez sélectionner toutes les affirmations qui s’appliquent :'}, {'message': 'CC_instr_msg_2', 'EN': 'In the following task…', 'DE': 'Bei der folgenden Aufgabe…', 'ES': 'En la siguiente tarea…', 'FR': 'Dans la tâche suivante…'}, {'message': 'CC_option_A', 'EN': 'you are supposed to actually perform the instructed movements.', 'DE': 'sollen Sie die instruierten Bewegungen tatsächlich ausführen. ', 'ES': 'se supone que debe ejecutar realmente los movimientos instruidos.', 'FR': 'vous êtes censé(e) exécuter réellement les mouvements instruits.'}, {'message': 'CC_option_B', 'EN': 'you are supposed to imagine how the person in the picture performs the movements.', 'DE': 'sollen Sie sich vorstellen, wie die Person auf dem Bild die Bewegungen ausführt. ', 'ES': 'se supone que debe imaginar cómo la persona en la imagen realiza los movimientos.', 'FR': 'vous êtes censé(e) imaginer comment la personne sur l’image exécute les mouvements.'}, {'message': 'CC_option_C', 'EN': 'you are supposed to imagine how it looks and how it feels to perform the movements from the audio instruction yourself.', 'DE': 'sollen Sie sich vorstellen, wie es aussieht und wie es sich anfühlt, die Bewegungen aus der Audioinstruktion selbst auszuführen. ', 'ES': 'se supone que debe imaginar cómo se ve y cómo se siente realizar usted mismo los movimientos de la instrucción auditiva.', 'FR': 'vous êtes censé(e) imaginer à quoi cela ressemble et ce que l’on ressent lorsque vous exécutez vous-même les mouvements issus de l’instruction audio.'}, {'message': 'CC_option_D', 'EN': 'the imagined movements build on each other within a single trial.', 'DE': 'bauen die vorgestellten Bewegungen innerhalb eines Durchgangs aufeinander auf.', 'ES': 'los movimientos imaginados se construyen unos sobre otros dentro de un mismo ensayo.', 'FR': 'les mouvements imaginés s’enchaînent les uns aux autres au sein d’un même essai.'}, {'message': 'CC_option_E', 'EN': 'it is unimportant how quickly you decide whether the picture matches your final position in your imagery.', 'DE': 'ist es unwichtig, wie schnell Sie sich entscheiden, ob das Bild zu Ihrer Endposition in Ihrer Vorstellung passt. ', 'ES': 'no es importante cuán rápido decida si la imagen coincide con su posición final en su imaginación.', 'FR': 'il est sans importance à quelle vitesse vous décidez si l’image correspond à votre position finale dans votre imagerie.'}, {'message': 'CC_option_F', 'EN': 'keep your eyes closed during each trial until you hear a signal tone.', 'DE': 'halten Sie Ihre Augen in jedem Durchgang solange geschlossen, bis Sie einen Signalton hören. ', 'ES': 'mantenga los ojos cerrados durante cada ensayo hasta que escuche una señal sonora.', 'FR': 'gardez les yeux fermés pendant chaque essai jusqu’à ce que vous entendiez un signal sonore.'}, {'message': 'CC_error', 'EN': 'Unfortunately, your answers were not completely correct.\nPlease read the instructions carefully again.', 'DE': 'Leider waren Ihre Antworten nicht vollständig korrekt.\nBitte lesen Sie die Instruktionen erneut und aufmerksam durch.', 'ES': 'Lamentablemente, sus respuestas no fueron completamente correctas.\nPor favor, lea las instrucciones de nuevo atentamente.', 'FR': 'Malheureusement, vos réponses n’étaient pas entièrement correctes.\nVeuillez relire attentivement les instructions.'}, {'message': 'feedback_correct_msg', 'EN': 'CORRECT response', 'DE': 'KORREKTE Antwort', 'ES': 'Respuesta CORRECTA', 'FR': 'Réponse CORRECTE'}, {'message': 'feedback_incorrect_msg', 'EN': 'INCORRECT response', 'DE': 'FEHLER', 'ES': 'Respuesta INCORRECTA', 'FR': 'Réponse INCORRECTE'}, {'message': 'pract_instr_msg', 'EN': 'There will now be 4 practice trials.', 'DE': 'Es folgen nun 4 Übungsdurchgänge.', 'ES': 'A continuación habrá 4 ensayos de práctica.', 'FR': 'Il va maintenant y avoir 4 essais d’entraînement.'}, {'message': 'task_instr_msg_3_bimanual', 'EN': 'Now place your index fingers on the ‘S’ and ‘L’ keys.\nKeep your fingers resting on these keys until you have completed all trials of the task.\nWhen you are ready, press the space bar with your thumb.', 'DE': 'Positionieren Sie Ihre Zeigefinger nun auf den Tasten ‚S‘ und ‚L‘ .\nLassen Sie Ihre Finger auf diesen Tasten ruhen, bis Sie alle Durchgänge der Aufgabe absolviert haben.\nWenn Sie bereit sind, drücken Sie mit Ihrem Daumen die Leertaste.', 'ES': 'Coloque ahora sus dedos índices sobre las teclas “S” y “L”.\nMantenga los dedos apoyados sobre estas teclas hasta que haya completado todos los ensayos de la tarea.\nCuando esté listo/a, presione la barra espaciadora con el pulgar.', 'FR': 'Placez maintenant vos index sur les touches « S » et « L ».\nLaissez vos doigts reposer sur ces touches jusqu’à ce que vous ayez terminé tous les essais de la tâche.\nLorsque vous êtes prêt(e), appuyez sur la barre d’espace avec votre pouce.'}, {'message': 'task_instr_msg_3_left', 'EN': 'Now place the index and middle fingers of your left hand on the ‘G’ and ‘H’ keys.\nKeep your fingers resting on these keys until you have completed all trials of the task.\nWhen you are ready, press the space bar with your thumb.', 'DE': 'Positionieren Sie Mittel- und Zeigefinger Ihrer linken Hand nun auf den Tasten ‚G‘ und ‚H‘ .\nLassen Sie Ihre Finger auf diesen Tasten ruhen, bis Sie alle Durchgänge der Aufgabe absolviert haben.\nWenn Sie bereit sind, drücken Sie mit Ihrem Daumen die Leertaste.', 'ES': 'Coloque ahora el dedo índice y el dedo medio de su mano izquierda sobre las teclas “G” y “H”.\nMantenga los dedos apoyados sobre estas teclas hasta que haya completado todos los ensayos de la tarea.\nCuando esté listo/a, presione la barra espaciadora con el pulgar.', 'FR': 'Placez maintenant l’index et le majeur de votre main gauche sur les touches « G » et « H ».\nLaissez vos doigts reposer sur ces touches jusqu’à ce que vous ayez terminé tous les essais de la tâche.\nLorsque vous êtes prêt(e), appuyez sur la barre d’espace avec votre pouce.'}, {'message': 'task_instr_msg_3_right', 'EN': 'Now place the index and middle fingers of your right hand on the ‘G’ and ‘H’ keys.\nKeep your fingers resting on these keys until you have completed all trials of the task.\nWhen you are ready, press the space bar with your thumb.', 'DE': 'Positionieren Sie Zeige- und Mittelfinger Ihrer rechten Hand nun auf den Tasten ‚G‘ und ‚H‘ .\nLassen Sie Ihre Finger auf diesen Tasten ruhen, bis Sie alle Durchgänge der Aufgabe absolviert haben.\nWenn Sie bereit sind, drücken Sie mit Ihrem Daumen die Leertaste.', 'ES': 'Coloque ahora el dedo índice y el dedo medio de su mano derecha sobre las teclas “G” y “H”.\nMantenga los dedos apoyados sobre estas teclas hasta que haya completado todos los ensayos de la tarea.\nCuando esté listo/a, presione la barra espaciadora con el pulgar.', 'FR': 'Placez maintenant l’index et le majeur de votre main droite sur les touches « G » et « H ».\nLaissez vos doigts reposer sur ces touches jusqu’à ce que vous ayez terminé tous les essais de la tâche.\nLorsque vous êtes prêt(e), appuyez sur la barre d’espace avec votre pouce.'}, {'message': 'testbl_instr_msg', 'EN': 'There will now be 32 trials in which we will measure your data.\nEach one counts!', 'DE': 'Es folgen nun 32 Durchgänge, in denen wir Ihre Daten messen möchten.\nJeder davon zählt!', 'ES': 'A continuación habrá 32 ensayos en los que mediremos sus datos.\n¡Cada uno cuenta!', 'FR': 'Il va maintenant y avoir 32 essais au cours desquels nous souhaitons mesurer vos données.\nChacun d’entre eux compte !'}, {'message': 'no_feedback_msg', 'EN': 'You will now receive no further feedback.', 'DE': 'Sie werden nun keine Rückmeldungen mehr erhalten.', 'ES': 'A partir de ahora no recibirá más retroalimentación.', 'FR': 'Vous ne recevrez désormais plus aucun retour.'}, {'message': 'reminder_msg', 'EN': 'Reminder:\nImagine WHAT IT LOOKS LIKE and HOW IT FEELS to perform the movements described in the audio instruction yourself.\nOpen your eyes when you hear the signal tone. Decide as QUICKLY AND ACCURATELY as possible whether the displayed image matches the final position in your imagery.', 'DE': 'Erinnerung:\nStellen Sie sich vor, WIE ES AUSSIEHT und WIE ES SICH ANFÜHLT, die in der Audioinstruktion beschriebenen Bewegungen selbst auszuführen.\nÖffnen Sie Ihre Augen beim Signalton. Entscheiden Sie so SCHNELL UND KORREKT wie möglich, ob das gezeigte Bild zu der Endposition in Ihrer Vorstellung passt.', 'ES': 'Recordatorio:\nImagine CÓMO SE VE y CÓMO SE SIENTE ejecutar usted mismo/a los movimientos descritos en la instrucción auditiva.\nAbra los ojos cuando escuche la señal sonora. Decida lo más RÁPIDA Y CORRECTAMENTE posible si la imagen mostrada coincide con la posición final en su imagery.', 'FR': 'Imaginez À QUOI CELA RESSEMBLE et CE QUE L’ON RESSENT en exécutant vous-même les mouvements décrits dans l’instruction audio.\nOuvrez les yeux lorsque vous entendez le signal sonore. Décidez aussi RAPIDEMENT ET CORRECTEMENT que possible si l’image affichée correspond à la position finale dans votre imagerie.'}, {'message': 'close_eyes_msg', 'EN': 'Close your eyes!', 'DE': 'Schließen Sie Ihre Augen!', 'ES': '¡Cierre los ojos!', 'FR': 'Fermez les yeux !'}, {'message': 'yes_msg', 'EN': 'yes', 'DE': 'ja', 'ES': 'sí', 'FR': 'oui'}, {'message': 'no_msg', 'EN': 'no', 'DE': 'nein', 'ES': 'no', 'FR': 'non'}, {'message': 'start_msg', 'EN': 'press SPACE to start trial', 'DE': 'Durchgang starten mit LEERTASTE', 'ES': 'pulse la BARRA ESPACIADORA para iniciar el ensayo', 'FR': 'appuyez sur la BARRE D’ESPACE pour démarrer l’essai'}, {'message': 'demographics_msg', 'EN': 'Please fill out this information about yourself.', 'DE': 'Bitte füllen Sie diese Informationen über sich selbst aus.', 'ES': 'Por favor completa esta información sobre ti.', 'FR': 'Veuillez remplir ces informations vous concernant.'}, {'message': 'age_msg', 'EN': 'Age:', 'DE': 'Alter:', 'ES': 'Edad:', 'FR': 'Âge :'}, {'message': 'gender_msg', 'EN': 'Gender:', 'DE': 'Geschlecht:', 'ES': 'Género', 'FR': 'Genre :'}, {'message': 'f_msg', 'EN': 'Female', 'DE': 'Weiblich', 'ES': 'Mujer', 'FR': 'Femme'}, {'message': 'm_msg', 'EN': 'Male', 'DE': 'Männlich', 'ES': 'Hombre', 'FR': 'Homme'}, {'message': 'tg_msg', 'EN': 'Trans-gender', 'DE': 'Transgender', 'ES': 'Transgénero', 'FR': 'Transgenre'}, {'message': 'nb_msg', 'EN': 'Non-binary', 'DE': 'Nicht-binär', 'ES': 'No binario', 'FR': 'Non binaire'}, {'message': 'o_msg', 'EN': 'Other', 'DE': 'Sonstiges', 'ES': 'Otro', 'FR': 'Autre'}, {'message': 'pns_msg', 'EN': 'Prefer not saying', 'DE': 'Möchte ich nicht sagen', 'ES': 'Prefiero no decirlo', 'FR': 'Préfère ne pas le dire'}, {'message': 'laterality_msg', 'EN': 'Hand dominance:', 'DE': 'Handdominanz:', 'ES': 'Mano dominante:', 'FR': 'Dominance manuelle :'}, {'message': 'left_msg', 'EN': 'Left', 'DE': 'Links', 'ES': 'Izquierda', 'FR': 'Gauche'}, {'message': 'ambi_msg', 'EN': 'Ambidextrous', 'DE': 'Beidhändig', 'ES': 'Ambidiestro/a', 'FR': 'Ambidextre'}, {'message': 'right_msg', 'EN': 'Right', 'DE': 'Rechte', 'ES': 'Derecha', 'FR': 'Droite'}, {'message': 'next_msg', 'EN': 'Next', 'DE': 'Weiter', 'ES': 'Siguiente', 'FR': 'Suivant'}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="fpjt_files/Messages.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="False" valType="bool"/>
@@ -6712,6 +7606,7 @@
     <LoopTerminator name="update_message_loop"/>
     <Routine name="welcome"/>
     <Routine name="helper"/>
+    <Routine name="demographics"/>
     <Routine name="start_test_sound_loop"/>
     <LoopInitiator loopType="TrialHandler" name="play_test_sound_loop">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
