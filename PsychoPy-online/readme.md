@@ -118,6 +118,8 @@ Required audio message keys / filenames (base name without ISO suffix):
 - `head_down`
 - `fam_solution_msg`
 
+The text corresponding to these audio files is also included in the `Messages.xlsx`.
+
 
 #### 5. Update the experiment
 
@@ -256,3 +258,4 @@ Contributions are welcome.
 ## REFERENCE
 
 Please cite [Czilczer et al. (2025)](https://osf.io/9xjfb) when using this resource.
+
