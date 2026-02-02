@@ -53,14 +53,14 @@ The file must contain the columns:
 
 Example:
 
-| Language | ISO_code |
+| language | ISO_code |
 | :--- | :--- |
 | English | EN |
 | German | DE |
 
 Add your new language (e.g., Italian) in a **new row**:
 
-| Language | ISO_code |
+| language | ISO_code |
 | :--- | :--- |
 | English | EN |
 | German | DE |
