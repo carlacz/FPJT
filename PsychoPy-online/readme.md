@@ -257,7 +257,8 @@ Contributions are welcome.
 
 ## REFERENCE
 
-Please cite [Czilczer et al. (2025)](https://osf.io/9xjfb) when using this resource.
+Please cite [Czilczer et al. (2026)](https://doi.org/10.31234/osf.io/9xjfb_v1) when using this resource.
+
 
 
 
