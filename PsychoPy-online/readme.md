@@ -1,9 +1,9 @@
 # FINAL POSITION JUDGEMENT TASK (FPJT)
 
-**Author:** Carla Czilczer, 16/01/2026  
+**Author:** Carla Czilczer, 23/03/2026  
 **Software used:** PsychoPy 2025.1.1  
 **Experiment Type:** Online  
-**Languages supported:** English (EN) = default, German (DE) (Spanish (ES), French (FR) coming soon!). Further languages can be added, which requires simple changes in the code, updating the `.xlsx` files, and adding the respective `.wav` audio files (see [Language localization](#language-localization)).
+**Languages supported:** English (EN) = default, German (DE), Spanish (ES), French (FR). Further languages can be added, which requires simple changes in the code, updating the `.xlsx` files, and adding the respective `.wav` audio files (see [Language localization](#language-localization)).
 
 ---------------------------------------
 
