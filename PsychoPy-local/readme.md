@@ -3,7 +3,7 @@
 **Author:** Carla Czilczer, 23/03/2026  
 **Software used:** PsychoPy 2025.1.1  
 **Experiment Type:** Local (offline)  
-**Languages supported:** English (EN) = default, German (DE), Spanish (ES), French (FR). Further languages can be added, which requires simple changes in the code, updating the `.xlsx` files, and adding the respective `.wav` audio files (see [Language localization](#language-localization)).
+**Languages supported:** English (EN) = default, German (DE), Spanish (ES), French (FR). Further languages can be added, which requires simple changes in the code, updating the `.xlsx` files, and adding the respective `.wav` audio files (see Language localization).
 
 ---------------------------------------
 
@@ -36,7 +36,7 @@ PsychoPy saves results locally as `.csv` (wide format) plus `.log` / `.psydat`.
 
 This experiment uses external spreadsheet files to manage text and translations. This makes adding new languages relatively easy, but strict formatting rules apply.
 
-Participants select their preferred language via the PsychoPy startup dialog (Experiment Info; see [Experiment settings](#experiment-settings-parameters-to-choose)). The experiment then uses the corresponding _ISO_code_ (e.g., `EN`, `DE`) to retrieve the corresponding text from columns in the external message sheet.
+Participants select their preferred language via the PsychoPy startup dialog (Experiment Info). The experiment then uses the corresponding _ISO_code_ (e.g., `EN`, `DE`) to retrieve the corresponding text from columns in the external message sheet.
 
 - `Language_localiser.xlsx` maps a **language** to an **ISO_code**.
 - The message sheet (e.g., `fpjt_files/Messages.xlsx`) contains one column per ISO_code and is iterated to populate global text variables used across routines.
@@ -238,4 +238,5 @@ Contributions are welcome.
 
 ## REFERENCE
 
-Please cite [Czilczer et al. (2025)](https://osf.io/9xjfb) when using this resource.
+Please cite [Czilczer et al. (2026)](https://doi.org/10.31234/osf.io/9xjfb_v1) when using this resource.
+
