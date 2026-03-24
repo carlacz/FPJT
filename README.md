@@ -3,7 +3,7 @@
 Available in **English**, **German**, **Spanish**, **French** (see below to implement the task in other languages).
 
 The FPJT [(Czilczer, Martini et al., 2026)](https://doi.org/10.31234/osf.io/4sw6h_v1) is a behavioural paradigm aiming to assess the ability to imagine performing a series of auditorily instructed movements. While focusing on imagery manipulation and maintenance, it also requires generating an imagery "from scratch" and inspecting one's imagery to judge whether it matches a visual stimulus. 
-If you are interested in assessing movement imagery ability, visit the [Movement Imagery Ability Platform](movementimageryability.github.io) for an overview of open-source behavioural tasks.
+If you are interested in assessing movement imagery ability, visit the [Movement Imagery Ability Platform](https://movementimageryability.github.io) for an overview of open-source behavioural tasks.
 
 The task was adapted from earlier imagery-stimulus compairosn tasks (e.g., [Madan & Singhal, 2013](https://doi.org/10.1080/00222895.2013.763764); [Nishida et al., 1986](https://doi.org/10.1123/jsep.10.4.418); [Schott, 2013](https://doi.org/10.1007/s00391-013-0520-x)). 
 This repository contains the materials for the open-source (and user-friendly) FPJT, based on [Czilczer et al. (2025)](DOI), provided in open-source experiment presentation software.
