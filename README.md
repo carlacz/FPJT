@@ -16,7 +16,7 @@ An example of a trial is shown below. Participants imagine performing 4-7 moveme
 
 ## Repository information
 This repository has four main folders, which contain **PsychoPy** (`.psyexp`) and **OpenSesame** (`.osexp`) experiments, together with associated files to run them **locally** (lab/desktop experiments) or **online** (in a browser).  
-Please consult the accompanying manuscript ([Czilczer, Moreno-Verdú et al., 2026](https://doi.org/10.31234/osf.io/9xjfb_v1)) on the [Movement Imagery Ability Platform](movementimageryability.github.io) for a guide on necessary steps to run a task in each of the four deployment modes, which can help with the decision.
+Please consult the accompanying manuscript ([Czilczer, Moreno-Verdú et al., 2026](https://doi.org/10.31234/osf.io/9xjfb_v1)) on the [Movement Imagery Ability Platform](https://movementimageryability.github.io/) for a guide on necessary steps to run a task in each of the four deployment modes, which can help with the decision.
 - [FPJT PsychoPy local](/PsychoPy-local)
 - [FPJT PsychoPy online](/PsychoPy-online)
 - [FPJT OpenSesame local](/OpenSesame-local)
