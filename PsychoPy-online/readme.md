@@ -1,6 +1,6 @@
 # FINAL POSITION JUDGEMENT TASK (FPJT)
 
-**Author:** Carla Czilczer, 23/03/2026  
+**Author:** Carla Czilczer, 08/06/2026  
 **Software used:** PsychoPy 2025.1.1  
 **Experiment Type:** Online  
 **Languages supported:** English (EN) = default, German (DE), Spanish (ES), French (FR). Further languages can be added, which requires simple changes in the code, updating the `.xlsx` files, and adding the respective `.wav` audio files (see [Language localization](#language-localization)).
@@ -19,6 +19,7 @@ If you are unfamiliar with PsychoPy, please refer to the [documentation](https:/
 To edit or run this task, you need to have **PsychoPy** installed.  
 To run the task online, you will need a hosting solution for PsychoJS (most commonly **Pavlovia**).  
 PsychoPy exports results directly as `.csv` (wide format) plus `.log` / `.psydat` (depending on run mode).
+A script for data preparation in [R](https://www.r-project.org/) (4.5.2) is provided.
 
 **Step-by-step instructions:**
 1. **Download** and unzip the repository to a dedicated folder.
@@ -27,6 +28,8 @@ PsychoPy exports results directly as `.csv` (wide format) plus `.log` / `.psydat
 4. Click the **Run** button to test in browser (debugging only; not recommended for online data collection).
 5. **Distribute** the generated study link to your participants. They run the task directly in their web browser.
 6. **Download the data** from the Pavlovia project dashboard (Results/Data export).
+7. **Place all downloaded `.csv` files** in the `data` folder located inside the unzipped repository. The `data-prep.R` script reads all `.csv` files in this folder automatically.
+8. **Process the data** using the provided `data-prep.R` script.
 
 ---------------------------------------
 
@@ -118,8 +121,7 @@ Required audio message keys / filenames (base name without ISO suffix):
 - `head_down`
 - `fam_solution_msg`
 
-The text corresponding to these audio files is also included in the `Messages.xlsx`.
-
+The text corresponding to these audio files is also included in `Messages.xlsx`.
 
 #### 5. Update the experiment
 
@@ -144,6 +146,7 @@ The decompressed repository includes:
 
 - `FPJT_online.psyexp` — main PsychoPy experiment file
 - `Language_localiser.xlsx` — language configuration file
+- `data-prep.R` — R script that reads all downloaded `.csv` files automatically, generates a `data.rdata` file, and stores it in the `data` folder. `data.rdata` contains FPJT testblock data in long format and demographic / summary data in wide format.
 
 **Folder `fpjt_files`:**
 - `Messages.xlsx`
@@ -173,9 +176,9 @@ In **Experiment Settings → Experiment info**, participants can optionally sele
 
 | Variable | Options | Description |
 | :--- | :--- | :--- |
-| `language` | English (default), German | Participant-selectable language |
-| `response_mode` | Both hands (default), Left hand, Right hand | Input method (experimenter-defined) |
-| `feedback` | Yes (default), No feedback in testblock | Feedback behavior in test block (experimenter-defined) |
+| `language` |• **English** (default)<br>• German<br>• Spanish<br>• French | Participant-selectable language |
+| `response_mode` |• **Both hands** (default)<br>• Left hand<br>• Right hand | Input method (experimenter-defined) |
+| `feedback` |• Yes<br>• **No feedback in testblock** (default) | Feedback behavior in test block (experimenter-defined) |
 
 ### Changing defaults
 
@@ -244,21 +247,58 @@ If you do not want to collect demographics:
 ---------------------------------------
 
 ## OUTPUT
+For online runs, data is stored on the selected server/host and can be downloaded from the project’s interface. The output is typically downloaded as one `.csv` file per participant/run.
 
-For online runs, data is stored on the selected server/host and can be downloaded from the project’s interface.
+Store these `.csv` files in the dedicated `data` folder located inside the unzipped repository. The provided `data-prep.R` script is designed to read all `.csv` files in this folder, extract relevant observations from the FPJT test block, and save the processed data as `data.rdata` in the `data` folder.
 
+**To run the data preparation**, open `data-prep.R` and **source** the script.
+
+The script will generate `data.rdata`, which contains two dataframes: `data_long_tbl` (trial-level FPJT test data) and `data_wide` (demographics and summary data).
+
+> **Note:** This script relies on the standard PsychoPy/Pavlovia output structure. It expects a participant ID column (`participant` or `subject_nr`) and standard FPJT response columns such as `response.keys`, `response.corr`, and `response.rt`. If modifications were made beyond the configurable experiment settings, the code may need adaptation. Raw data should always be inspected and cleaned of outliers or errors prior to statistical analysis.
+
+### Variable Documentation
+
+#### 1. Testblock Trials Data (`data_long_tbl`)
+*Contains one row per FPJT test trial. Practice trials are not included.*
+
+| Variable Name | Type | Description |
+| :--- | :--- | :--- |
+| `subject_nr` | factor | Participant ID. |
+| `n_trial` | integer | Test trial index, 1-based. |
+| `item` | factor | FPJT item identifier. |
+| `n_audios` | integer | Number of auditory instructions in the trial. |
+| `fpjt_correct` | integer | Correctness flag (1 = correct, 0 = incorrect). |
+| `fpjt_rt` | numeric | Response time in seconds. |
+| `solution` | factor | Correct response key for the selected response mode. |
+| `trial_response` | factor | Key pressed / response code (participant response). |
+| `n_audio_false` | integer | Instruction position containing the mismatch; 0 = no mismatch. |
+| `a2`–`a7` | factor | Body-part categories for auditory instructions 2–7. |
+| `bodypart_false` | factor | Body part containing the mismatch; `none` = no mismatch. |
+
+#### 2. Demographic and Summary Data (`data_wide`)
+*Contains one row per subject.*
+
+| Variable Name | Type | Description |
+| :--- | :--- | :--- |
+| `subject_nr` | character | Participant ID. |
+| `language` | character | Selected language. |
+| `selected_response_mode` | character | Response-mode setting. |
+| `selected_feedback` | character | Feedback setting. |
+| `age` | integer | Participant age in years. |
+| `gender` | integer | Participant gender coded as integer (female = 1, male = 2, transgender = 3, nonbinary = 4, other = 5, none = 6). |
+| `handedness` | integer | Participant handedness/laterality coded as integer (left = 1, ambidextrous = 2, right = 3). |
+| `n_CC` | integer | Number of comprehension-check attempts. |
+| `fam_accuracy` | numeric | Familiarization accuracy, computed as the mean of `famil_answer` across familiarization trials. |
 ---------------------------------------
 
-PsychoPy / PsychoJS version updates may require adjustments.  
-Developers are not responsible for adapting the task to every use case.  
+PsychoPy / PsychoJS version updates may require adjustments.  Developers are not responsible for adapting the task to every use case.  
+Before collecting data, always test the experiment and check the data output.
 Contributions are welcome.
 
 ---------------------------------------
 
 ## REFERENCE
 
-Please cite [Czilczer et al. (2026)](https://doi.org/10.31234/osf.io/9xjfb_v1) when using this resource.
-
-
-
+Please cite [Czilczer et al. (2025)](https://osf.io/9xjfb) when using this resource.
 
