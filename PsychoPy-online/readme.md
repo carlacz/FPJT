@@ -18,7 +18,7 @@ If you are unfamiliar with PsychoPy, please refer to the [documentation](https:/
 
 To edit or run this task, you need to have **PsychoPy** installed.  
 To run the task online, you will need a hosting solution for PsychoJS (most commonly **Pavlovia**).  
-PsychoPy exports results directly as `.csv` (wide format) plus `.log` / `.psydat` (depending on run mode).
+PsychoPy exports results directly as `.csv` plus `.log` / `.psydat` (depending on run mode).
 A script for data preparation in [R](https://www.r-project.org/) (4.5.2) is provided.
 
 **Step-by-step instructions:**
@@ -169,7 +169,7 @@ The decompressed repository includes:
 
 ## EXPERIMENT SETTINGS (parameters to choose)
 
-In **Experiment Settings → Experiment info**, participants can optionally select a `language` variable.  
+In the default configuration, participants can select their `language` upon starting the experiment. This is configured via **Experiment Settings → Experiment info → `language`** (see below for more information).  
 `response_mode` and `feedback` are experimenter-defined defaults set in code.
 
 ### Available parameters
@@ -290,6 +290,7 @@ The script will generate `data.rdata`, which contains two dataframes: `data_long
 | `handedness` | integer | Participant handedness/laterality coded as integer (left = 1, ambidextrous = 2, right = 3). |
 | `n_CC` | integer | Number of comprehension-check attempts. |
 | `fam_accuracy` | numeric | Familiarization accuracy, computed as the mean of `famil_answer` across familiarization trials. |
+
 ---------------------------------------
 
 PsychoPy / PsychoJS version updates may require adjustments.  Developers are not responsible for adapting the task to every use case.  
