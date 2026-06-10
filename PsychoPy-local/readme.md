@@ -19,7 +19,7 @@ If you are unfamiliar with PsychoPy, please refer to the [documentation](https:/
 
 To edit or run this task, you need to have **PsychoPy** installed.  
 
-PsychoPy exports results directly as `.csv` (wide format) plus `.log` / `.psydat` (depending on run mode).
+PsychoPy exports results directly as `.csv` plus `.log` / `.psydat` (depending on run mode).
 A script for data preparation in [R](https://www.r-project.org/) (4.5.2) is provided.
 
 **Step-by-step instructions:**
@@ -36,7 +36,7 @@ A script for data preparation in [R](https://www.r-project.org/) (4.5.2) is prov
 
 This experiment uses external spreadsheet files to manage text and translations. This makes adding new languages relatively easy, but strict formatting rules apply.
 
-Participants select their preferred language via the PsychoPy startup dialog (Experiment Info; see [Experiment settings](#experiment-settings-parameters-to-choose)). The experiment then uses the corresponding _ISO_code_ (e.g., `EN`, `DE`) to retrieve the corresponding text from columns in the external message sheet.
+The language can be selected via the PsychoPy startup dialog (Experiment Info; see [Experiment settings](#experiment-settings-parameters-to-choose)). The experiment then uses the corresponding _ISO_code_ (e.g., `EN`, `DE`) to retrieve the corresponding text from columns in the external message sheet.
 
 - `Language_localiser.xlsx` maps a **language** to an **ISO_code**.
 - The message sheet (e.g., `fpjt_files/Messages.xlsx`) contains one column per ISO_code (e.g., `EN`, `DE`) and is iterated to populate the global text variables used across routines.
