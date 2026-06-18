@@ -3420,7 +3420,7 @@
         <Param val="False" valType="bool" updates="constant" name="stopWithRoutine"/>
         <Param val="False" valType="bool" updates="constant" name="syncScreenRefresh"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="1.5" valType="num" updates="constant" name="volume"/>
+        <Param val="0.7" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
     </Routine>
     <Routine name="start_trial">
@@ -5123,7 +5123,7 @@
         <Param val="False" valType="bool" updates="constant" name="stopWithRoutine"/>
         <Param val="False" valType="bool" updates="constant" name="syncScreenRefresh"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="1.5" valType="num" updates="constant" name="volume"/>
+        <Param val="0.7" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
     </Routine>
     <Routine name="trial_fixcross_pr">
