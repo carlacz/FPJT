@@ -6,7 +6,7 @@ The FPJT [(Czilczer, Martini et al., 2026)](https://doi.org/10.31234/osf.io/4sw6
 If you are interested in assessing movement imagery ability, visit the [Movement Imagery Ability Platform](https://movementimageryability.github.io) for an overview of open-source behavioural tasks.
 
 The task was adapted from earlier imagery-stimulus compairosn tasks (e.g., [Madan & Singhal, 2013](https://doi.org/10.1080/00222895.2013.763764); [Nishida et al., 1986](https://doi.org/10.1123/jsep.10.4.418); [Schott, 2013](https://doi.org/10.1007/s00391-013-0520-x)). 
-This repository contains the materials for the open-source (and user-friendly) FPJT, based on [Czilczer et al. (2025)](DOI), provided in open-source experiment presentation software.
+This repository contains the materials for the open-source (and user-friendly) FPJT, based on [(Czilczer, Martini et al., 2026)](https://doi.org/10.31234/osf.io/4sw6h_v1), provided in open-source experiment presentation software.
 The most updated versions can be found in this repository.
 
 Subsequent updates in native software ([PsychoPy](https://www.psychopy.org/index.html) and [OpenSesame](https://osdoc.cogsci.nl/)) may need adjustments. As developers, we are not responsible for implementing these in every use case.
