@@ -14,6 +14,8 @@ Subsequent updates in native software ([PsychoPy](https://www.psychopy.org/index
 An example of a trial is shown below. Participants imagine performing 4-7 movements (subsequently instructed via standardized audios) and judge whether their final position in their imagery matches with a visual stimulus, which is presented after the last auditory instruction.
 ![fpjt-demo](files-READMEs/fpjt-demo.jpg)
 
+In the original experiment [(Czilczer, Martini et al., 2026)](https://doi.org/10.31234/osf.io/4sw6h_v1), one FPJT item (four movement instructions) had atypically high error rates (> 3 SD; baseline: 63.87%; articulatory suppression: 68.07%), as the upper body rotation likely obscured detection of the incorrectly directed arm movement; and was hence excluded in data analyses. To avoid ambigiuty, the respective trial was adapted in the FPJT we provide in this GitHub repository.
+
 ## Repository information
 This repository has four main folders, which contain **PsychoPy** (`.psyexp`) and **OpenSesame** (`.osexp`) experiments, together with associated files to run them **locally** (lab/desktop experiments) or **online** (in a browser).  
 Please consult the accompanying manuscript ([Czilczer, Moreno-Verdú et al., 2026](https://doi.org/10.31234/osf.io/9xjfb_v1)) on the [Movement Imagery Ability Platform](https://movementimageryability.github.io/) for a guide on necessary steps to run a task in each of the four deployment modes, which can help with the decision.
