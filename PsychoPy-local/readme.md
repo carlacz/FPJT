@@ -255,7 +255,8 @@ The script will generate `data.rdata`, which contains two dataframes: `data_long
 | `subject_nr` | factor | Participant ID. |
 | `n_trial` | integer | Test trial index, 1-based. |
 | `item` | factor | FPJT item identifier. |
-| `n_audios` | integer | Number of auditory instructions in the trial. |
+| `n_audios` | integer | Number of auditory instructions in the trial. (4-7; includes starting position audio) |
+| `n_movements` | integer | Number of movements in the trial. (3-6) |
 | `fpjt_correct` | integer | Correctness flag (1 = correct, 0 = incorrect). |
 | `fpjt_rt` | numeric | Response time in seconds. |
 | `solution` | factor | Correct response key for the selected response mode. |
