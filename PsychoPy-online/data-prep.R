@@ -255,8 +255,9 @@ if (all(c("correct_both", "correct_one") %in% names(data_long_tbl))) {
 }
 
 # -------- Keep only relevant columns --------------------------------------
+data_long_tbl$n_movements <- data_long_tbl$n_audios - 1
 
-wanted <- c("subject_nr", "n_trial", "item", "n_audios",
+wanted <- c("subject_nr", "n_trial", "item", "n_audios", "n_movements",
             "fpjt_correct", "fpjt_rt", "solution", "trial_response",
             "n_audio_false", "a2", "a3", "a4", "a5", "a6", "a7",
             "bodypart_false")
@@ -277,7 +278,7 @@ if ("subject_nr" %in% names(data_long_tbl)) {
   data_long_tbl$subject_nr <- as.factor(as.character(data_long_tbl$subject_nr))
 }
 
-for (col in c("n_trial", "n_audios", "fpjt_correct", "n_audio_false")) {
+for (col in c("n_trial", "n_audios", "n_movements", "fpjt_correct", "n_audio_false")) {
   if (col %in% names(data_long_tbl)) {
     data_long_tbl[[col]] <- as_int(data_long_tbl[[col]])
   }
@@ -309,6 +310,7 @@ message("Created long table with ", nrow(data_long_tbl), " FPJT test trial row(s
 #  - n_trial                : test trial index, 1-based : integer
 #  - item                   : FPJT item identifier : factor
 #  - n_audios               : number of auditory instructions in the trial : integer
+#  - n_movements            : number of movements in the trial : integer
 #  - fpjt_correct           : correctness flag (1 = correct, 0 = incorrect) : integer
 #  - fpjt_rt                : response time in seconds : numeric
 #  - solution               : correct response key for selected response mode : factor
