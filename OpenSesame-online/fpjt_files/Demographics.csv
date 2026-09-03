@@ -1,0 +1,10 @@
+demographics;EN;ES;FR;DE
+age_item;Click on your age in years:;Haga clic en su edad en años:;Cliquez sur votre âge en années :;Klicken Sie auf Ihr Alter in Jahren:
+sex_item;Indicate your gender:;Indique su sexo:;Indiquez votre sexe:;Geben Sie Ihr Geschlecht an:
+handedness_item;Indicate your dominant hand:;Indique su mano dominante:;Indiquez votre main dominante:;Geben Sie Ihre dominante Hand an:
+sex_f;female;femenino;féminin;weiblich
+sex_m;male;masculino;masculin;männlich
+sex_d;diverse;diverso;divers;divers
+handedness_l;left;izquierdo;gauche;links
+handedness_r;right;derecho;droit;rechts
+handedness_b;neither (ambidextrous);ninguno (ambidiestro);aucun des deux (ambidextre);keine (beidhändig)

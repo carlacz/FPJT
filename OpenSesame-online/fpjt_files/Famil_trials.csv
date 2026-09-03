@@ -1,0 +1,17 @@
+famil_image;famil_optionA;famil_optionB;famil_optionC;famil_optionD;famil_solution;famil_option_solution
+fpjt_images/right_arm_side.jpg;left_arm_side;right_arm_front;right_arm_side;no_movement;right_arm_side;C
+fpjt_images/right_arm_front.jpg;left_arm_side;right_arm_front;left_arm_front;no_movement;right_arm_front;B
+fpjt_images/right_arm_up.jpg;right_arm_front;right_arm_up;left_arm_up;no_movement;right_arm_up;B
+fpjt_images/left_arm_side.jpg;right_arm_front;left_arm_up;left_arm_side;no_movement;left_arm_side;C
+fpjt_images/left_arm_front.jpg;left_arm_front;right_arm_front;right_arm_side;no_movement;left_arm_front;A
+fpjt_images/left_arm_up.jpg;right_arm_up;left_arm_up;left_arm_front;no_movement;left_arm_up;B
+fpjt_images/head_down.jpg;head_up;head_down;torso_right;no_movement;head_down;B
+fpjt_images/head_up.jpg;head_down;torso_left;head_up;no_movement;head_up;C
+fpjt_images/torso_right.jpg;torso_right;head_up;torso_left;no_movement;torso_right;A
+fpjt_images/torso_left.jpg;torso_right;head_down;torso_left;no_movement;torso_left;C
+fpjt_images/right_leg_front.jpg;right_leg_front;right_leg_back;left_leg_front;no_movement;right_leg_front;A
+fpjt_images/right_leg_side.jpg;right_leg_front;left_leg_side;right_leg_side;no_movement;right_leg_side;C
+fpjt_images/right_leg_back.jpg;right_leg_back;left_leg_back;right_leg_front;no_movement;right_leg_back;A
+fpjt_images/left_leg_front.jpg;right_leg_front;left_leg_front;right_leg_back;no_movement;left_leg_front;B
+fpjt_images/left_leg_side.jpg;left_leg_back;right_leg_back;left_leg_side;no_movement;left_leg_side;C
+fpjt_images/left_leg_back.jpg;left_leg_back;right_leg_back;left_leg_front;no_movement;left_leg_back;A

@@ -1,0 +1,5 @@
+item;n_audios;fpjt_image;correct_both;correct_one;audio1_EN;audio2_EN;audio3_EN
+FPJT1PR;3;practice1.jpg;s;g;straight_EN.mp3;torso_right_EN.mp3;right_leg_side_EN.mp3
+FPJT2PR;3;practice2.jpg;s;g;straight_EN.mp3;head_down_EN.mp3;right_arm_up_EN.mp3
+FPJT3PR;3;practice3.jpg;l;h;straight_EN.mp3;left_leg_back_EN.mp3;head_up_EN.mp3
+FPJT4PR;3;practice4.jpg;l;h;straight_EN.mp3;torso_left_EN.mp3;left_arm_side_EN.mp3
