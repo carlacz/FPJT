@@ -180,6 +180,9 @@ In the default configuration, participants can select their `language` upon star
 | `response_mode` |• **Both hands** (default)<br>• Left hand<br>• Right hand | Input method (experimenter-defined) |
 | `feedback` |• Yes<br>• **No feedback in testblock** (default) | Feedback behavior in test block (experimenter-defined) |
 
+To use different visual stimuli (e.g., images depicting specific demographic characteristics), replace the image files in the relevant folder with your own, retaining the original filenames.
+If you have used alternative stimuli in a published study, you are welcome to send them (together with the DOI of the manuscript) to the corresponding author for possible inclusion in the task repositories.
+
 ### Changing defaults
 
 #### 1. Default `response_mode`
