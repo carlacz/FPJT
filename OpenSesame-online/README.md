@@ -195,6 +195,9 @@ var selected_response_mode = "Both hands"; // change here
 var selected_feedback = "No feedback in testblock"; // change here
 ```
 
+To use different visual stimuli (e.g., images depicting specific demographic characteristics), replace the image files in the relevant folder with your own, retaining the original filenames.
+If you have used alternative stimuli in a published study, you are welcome to send them (together with the DOI of the manuscript) to the corresponding author for possible inclusion in the task repositories.
+
 ### Disable Demographic Questions
 
 The experiment includes three demographic questions (Age, Gender, Handedness) by default. We incorporate these questions to facilitate the **creation of norms** that will facilitate the interpretation of individual scores.
