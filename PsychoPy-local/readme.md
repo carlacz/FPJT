@@ -186,6 +186,9 @@ For **language**, **response_mode**, and **feedback**:
 
 This forces the experiment to use your hard-coded defaults.
 
+To use different visual stimuli (e.g., images depicting specific demographic characteristics), replace the image files in the relevant folder with your own, retaining the original filenames.
+If you have used alternative stimuli in a published study, you are welcome to send them (together with the DOI of the manuscript) to the corresponding author for possible inclusion in the task repositories.
+
 ### Disable demographic questions
 
 The experiment includes Age, Gender, and Handedness questions by default. These support normative data collection.
