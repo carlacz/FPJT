@@ -217,6 +217,9 @@ The selected language name must exactly match an entry in `Language_localiser.xl
 
 Do not modify other parts of the `preparations` script unless you also adapt the corresponding experiment logic.
 
+To use different visual stimuli (e.g., images depicting specific demographic characteristics), replace the image files in the relevant folder with your own, retaining the original filenames.
+If you have used alternative stimuli in a published study, you are welcome to send them (together with the DOI of the manuscript) to the corresponding author for possible inclusion in the task repositories.
+
 ### Disable demographic questions
 
 The experiment includes questions about age, gender, and handedness. These questions support the collection of normative data.
